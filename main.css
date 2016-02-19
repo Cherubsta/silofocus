@@ -1,16 +1,20 @@
+body {
+  background-color: #2E4675;
+}
+
 #container
 {
-    height:2000px;    
+  height:2000px;    
 }
 
 #container DIV
 { 
-    margin:50px; 
-    padding:50px; 
-    background-color:lightgreen; 
+  margin:50px; 
+  padding:50px; 
+  background-color:lightgreen; 
 }
 
 .hideme
 {
-    opacity:0;
+  opacity:0;
 }
