@@ -16,14 +16,22 @@ h1 {
 	font-size: 3.2em;
 }
 
+.story-block {
+	max-width: 50%;
+}
+
 @media(max-width: 600px) { /* for devies under 600px width, iPhone 6+ */
   h1 {
-    font-size: 1.3em;
+    font-size: 1.8em;
   }
   .font-logo {
 		font-size: 2.8em;
 	}
+	.story-block {
+		max-width: 90%;
+	}
 }
+
 
 #container
 {
