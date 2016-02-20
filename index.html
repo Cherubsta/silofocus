@@ -12,35 +12,42 @@
   <!-- Latest Bootstrap compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="https://use.typekit.net/enq5mfv.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <title>|SILO| focus</title>
 </head>
 <body>
-  <div>
-    SILO - coming soon to Watch...
-  </div>
-  <div id="container">
-    <div>Hello</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-  </div>
-  <script type="text/javascript"> /* Fading divs */
-  $(document).ready(function() {
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-      /* Check the location of each desired element */
-      $('.hideme').each( function(i){
-        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-        /* If the object is completely visible in the window, fade it in */
-        if( bottom_of_window > bottom_of_object ){
-          $(this).animate({'opacity':'1'},3000);
-        }
-      }); 
+  <div class="container">
+    <div class="row center-block text-center" style="max-width: 50%">
+      <div class="font-logo">
+        <span class="font-ultralight">|</span>SILO<span class="font-ultralight">|focus</span>
+      </div>
+      <h1 class="tk-myriad-pro">Focus. Break. Repeat.</h1>
+    </div>
+    <div id="container">
+      <div>Hello</div>
+      <div class="hideme">Fade In</div>
+      <div class="hideme">Fade In</div>
+      <div class="hideme">Fade In</div>
+      <div class="hideme">Fade In</div>
+      <div class="hideme">Fade In</div>
+    </div>
+    <script type="text/javascript"> /* Fading divs */
+    $(document).ready(function() {
+      /* Every time the window is scrolled ... */
+      $(window).scroll( function(){
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          /* If the object is completely visible in the window, fade it in */
+          if( bottom_of_window > bottom_of_object ){
+            $(this).animate({'opacity':'1'},3000);
+          }
+        }); 
+      });
     });
-  });
-  </script>
+    </script>
+  </div>
 </body>
 </html>
