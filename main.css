@@ -26,11 +26,20 @@ p {
 	font-size: 2.8em;
 }
 
+ul {
+	padding-left: 1em;
+}
+
 .story-block {
 	max-width: 60%;
 	margin-bottom: 100px;
 }
 
+.def-block {	
+	display: block;
+	border: solid 2px;
+	padding: 1em 2em;
+}
 .background-wave {
 	background-image: url("https://s3-us-west-2.amazonaws.com/silofocus/wave%402x.png");
 	background-size: 100% 100%;
@@ -60,7 +69,6 @@ p {
 }
 
 #container {
-  height:4000px;
   margin-bottom: 50px;
 	margin-top: 75px;
 }
