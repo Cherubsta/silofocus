@@ -46,20 +46,6 @@
     </div> 
     
     <div id="container">
-      <div class="story-block center-block hideme">
-        <div class="row center-block text-center">
-          <h1 class="tk-myriad-pro">Silence Speaks Volumes.</h1>
-        </div>
-        <div class="row center-block" style="margin-top: 1.2em;">
-          <img src="https://s3-us-west-2.amazonaws.com/silofocus/haptics%402x.png" alt="haptics" class="img-responsive">
-        </div>
-        <div class="row text-center" style="margin-top: 2.2em;">
-          <p>Silent haptic cues to guide you through focus-break cycles–giving you a silent and subtle way to stay focused.</p>
-        </div>
-        <div class="row center-block" style="margin-top: 2.2em;">
-          <img src="https://s3-us-west-2.amazonaws.com/silofocus/box-activities%402x.png" alt="have fun" class="img-responsive">
-        </div>
-      </div>
       
       <div class="story-block center-block hideme">
         <div class="row center-block text-center">
@@ -69,7 +55,22 @@
           <img src="https://s3-us-west-2.amazonaws.com/silofocus/timer%402x.png" alt="timer" class="img-responsive center-block" style="max-width: 50%">
         </div>
         <div class="row text-center" style="margin-top: 2.2em;">
-          <p>Focusing on a task without distraction, and taking short breaks in between, is a simple way of boosting productivity.</p>
+          <p>Focusing on a task without distraction and taking short breaks, is a simple way of boosting productivity.</p>
+        </div>
+      </div>
+
+      <div class="story-block center-block hideme">
+        <div class="row center-block text-center">
+          <h1 class="tk-myriad-pro">Silence Speaks Volumes.</h1>
+        </div>
+        <div class="row center-block" style="margin-top: 1.2em;">
+          <img src="https://s3-us-west-2.amazonaws.com/silofocus/haptics%402x.png" alt="haptics" class="img-responsive center-block" style="max-width: 50%">
+        </div>
+        <div class="row text-center" style="margin-top: 2.2em;">
+          <p>Silent haptic cues to guide you through focus-break cycles–giving you a silent and subtle way to stay focused.</p>
+        </div>
+        <div class="row center-block" style="margin-top: 2.2em;">
+          <img src="https://s3-us-west-2.amazonaws.com/silofocus/box-activities%402x.png" alt="have fun" class="img-responsive">
         </div>
       </div>
 
@@ -79,11 +80,11 @@
             <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-done%402x.png" alt="watch done" class="img-responsive center-block" style="max-width: 100%">
           </div>
           <div class="col-sm-8 col-xs-8">
-            <h1 class="tk-myriad-pro" style="max-width: 80%;">It’s about time to let time, manage itself.</h1>
+            <h1 class="tk-myriad-pro" style="max-width: 80%;">It’s about time to let time manage itself.</h1>
           </div>
         </div>
         <div class="row text-center" style="margin-top: 2.2em;">
-          <p>Focusing on a task without distraction, and taking short breaks, is a simple way of boosting productivity.</p>
+          <p>A subtle tap on the wrist is a simple way of staying on target. End your day feeling more productive with time to spare. </p>
         </div>
          <div class="row center-block" style="max-width: 50%">
           <img src="https://s3-us-west-2.amazonaws.com/silofocus/App_Store_Badge_US-UK%402x.png" alt="ios" class="img-responsive center-block" style="margin-bottom: 1.2em; margin-top: 1.2em;">
@@ -123,19 +124,19 @@
         <div class="row center-block text-center">
           <h1 class="tk-myriad-pro">Find your rhythm.</h1>
         </div>
-        <div class="row text-left center-block" style="margin-top: 1.2em; max-width: 90%">
+        <div class="row text-left center-block" style="margin-top: 1.2em; max-width: 100%">
           <h4>25|5 Classic Focus (duration: 2 hours)</h4>
           <h3>
             The traditional way of getting stuff done. Focus on a task for 25 minutes then take a 5-minute break. Repeat for 4 times. 
           </h3>
         </div>
-        <div class="row text-left center-block" style="margin-top: 1.2em; max-width: 90%">
+        <div class="row text-left center-block" style="margin-top: 1.2em; max-width: 100%">
           <h4>20|10 Moderate Focus (duration: 2 hours)</h4>
           <h3>
             This is a less taxing way to work. Focus for 20 minutes then take a 10-minute break. Repeat for 4 times.
           </h3>
         </div>
-        <div class="row text-left center-block" style="margin-top: 1.2em; max-width: 90%">
+        <div class="row text-left center-block" style="margin-top: 1.2em; max-width: 100%">
           <h4>45|15  Power Focus (duration: 3 hours)</h4>
           <h3>
             Sometimes you have to power through a lot of work. Focus for 45 minutes the take a 15-minute break. Repeat for 3 times.
@@ -156,8 +157,8 @@
           var bottom_of_object = $(this).offset().top + $(this).outerHeight();
           var bottom_of_window = $(window).scrollTop() + $(window).height();
           /* If the object is completely visible in the window, fade it in */
-          if( bottom_of_window > (bottom_of_object - 500) ){
-            $(this).animate({'opacity':'1'},4000);
+          if( bottom_of_window > (bottom_of_object - 575) ){
+            $(this).animate({'opacity':'1'},3000);
           }
         }); 
       });
