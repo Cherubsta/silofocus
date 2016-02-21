@@ -9,21 +9,29 @@ body {
 }
 
 h1 {
-	font-size: 3.0em;
+	font-size: 3.2em;
 }
 
 h2 {
-	font-weight: lighter;
+	font-weight: 200;
 	color: #EF6362;
+}
+
+p {
+	font-size: 2.8em;
 }
 
 .story-block {
 	max-width: 60%;
+	margin-bottom: 100px;
 }
 
 @media(max-width: 590px) { /* for devies under 600px width, iPhone 6+ */
   h1 {
     font-size: 1.8em;
+  }
+  p {
+  	font-size: 1.8em;	
   }
   .font-logo {
 		font-size: 2.8em;
@@ -33,20 +41,16 @@ h2 {
 	}
 }
 
-
-#container
-{
-  height:2000px;    
+#container {
+  height:4000px;
+  margin-bottom: 50px;
+	margin-top: 75px;
 }
 
-#container DIV
-{ 
-  margin:50px; 
-  padding:50px; 
-  background-color:lightgreen; 
+#container DIV { 
+	
 }
 
-.hideme
-{
+.hideme {
   opacity:0;
 }
