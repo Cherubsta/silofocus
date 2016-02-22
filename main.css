@@ -32,7 +32,7 @@ ul {
 
 .story-block {
 	max-width: 60%;
-	margin-bottom: 100px;
+	margin-bottom: 150px;
 }
 
 .def-block {	
@@ -65,12 +65,16 @@ ul {
   p {
   	font-size: 1.3em;	
   }
+
+ ul {
+ 	font-size: 0.8em;
+ }
   .font-logo {
 		font-size: 2.8em;
 	}
 	.story-block {
 		max-width: 92%;
-		margin-bottom: 140px;
+		margin-bottom: 200px;
 	}
 }
 
