@@ -10,9 +10,6 @@ body {
 
 h1 {
 	font-size: 3.0em;
-	text-shadow:  
-  0 -1px 0px darken(rgba(255, 255, 255, 0.4),18%),
-  0 -2px 0px darken(rgba(255, 255, 255, 0.4),25%);
 }
 
 h2 {
