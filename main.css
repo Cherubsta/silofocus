@@ -10,7 +10,7 @@ h1 {
 h2 {
 	font-size: 2.6em;
 	font-weight: 300;
-	color: #EF6362;
+	/*color: #EF6362;*/
 }
 
 h3 {
@@ -18,7 +18,7 @@ h3 {
 }
 
 h4 {
-	color: #EF6362;
+	/*color: #EF6362;*/
 }
 
 p {
@@ -27,6 +27,10 @@ p {
 
 ul {
 	padding-left: 1em;
+}
+
+a {
+	color: #EF6362;
 }
 
 .font-logo {
