@@ -63,6 +63,10 @@ a {
   transform: rotate(180deg);
 }
 
+.margin-top {
+	margin-top: 2.5em;
+}
+
 @media(max-width: 800px) { /* for devies under 600px width, iPhone 6+ */
   h1 {
     font-size: 1.8em;
