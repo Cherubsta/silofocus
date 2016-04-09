@@ -75,6 +75,12 @@ a:hover {
 .margin-bottom {
 	margin-bottom: 1.8em;
 }
+.border-footer {
+	border-top-style: solid; 
+	width: 100%;
+    border-top-width: 2px;
+    border-top-color: #8087A6;
+}
 
 @media(max-width: 800px) { /* for devies under 600px width, iPhone 6+ */
   h1 {
