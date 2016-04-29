@@ -96,7 +96,7 @@ a:hover {
 
 @media(max-width: 800px) { /* for devies under 600px width, iPhone 6+ */
   h1 {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
   h2 {
     font-size: 1.4em;
@@ -117,7 +117,7 @@ a:hover {
  		font-size: 0.8em;
  	}
  .font-logo {
-		font-size: 1.6em;
+		font-size: 1.8em;
 	}
 	.story-block {
 		max-width: 92%;
