@@ -12,12 +12,9 @@
   <link rel="stylesheet" type="text/css" href="main.css">
   <!-- Latest Bootstrap compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="https://use.typekit.net/enq5mfv.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <script>
-    function Droid() { alert("Coming to your Android Watch soon! Stay tuned."); }
-  </script>
+  <script>try{Typekit.load({ async: false });}catch(e){}</script> <!-- changed to false -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <title>SILO |focus|</title>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -29,42 +26,69 @@
   </script>
 </head>
 <body>
-  
+  <div class="font-logo">
+    <a href="http://silofocus.com" style="text-decoration: inherit;">
+      SILO<span style="font-weight: lighter;"> |focus|</span>
+    </a>
+  </div>
   <div class="container">
 
     <div class="story-block center-block" style="margin-bottom: 0px;">
-      <div class="row center-block text-center">
-        <div class="font-logo">
-          <a href="http://silofocus.com" style="text-decoration: inherit;">
-            SILO<span style="font-weight: lighter;"> |focus|</span>
-          </a>
-        </div>
-        <h1 class="tk-myriad-pro">Make the Most of your Time</h1>
-      </div>
-      <div class="row center-block visible-md-block visible-lg-block" style="margin-top: 2.2em;">
-        <img src="https://s3-us-west-2.amazonaws.com/silofocus/watches%402x.png" alt="watches" class="img-responsive">
-      </div>
-      <div class="row center-block visible-xs-block visible-sm-block" style="margin-top: 2.2em;">
-        <img src="https://s3-us-west-2.amazonaws.com/silofocus/watches-sm%402x.png" alt="watches" class="img-responsive">
-      </div>
-      <div class="row text-center" style="margin-top: 2em;">
-        <h2 class="tk-myriad-pro">You're one tap away from getting sh*t done.</h2>
-      </div>
-      <div class="row center-block" style="margin-top: 2.2em; max-width: 100%;">
-        <div>
-          <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Top', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus/App_Store_Badge_US-UK%402x.png" alt="ios" class="img-responsive center-block" style="margin-bottom: 1.2em; max-width: 35%;"> </a>
-        </div>
-      </div>
-      <div class="row center-block visible-md-block visible-lg-block" style="margin-top: 1.2em; max-width: 80%; margin-bottom: 2em;">
-        <img src="https://s3-us-west-2.amazonaws.com/silofocus/arrow-down%402x.png" alt="arrow" class="img-responsive center-block" style="width: 10%;">
-      </div>
-      <div class="row center-block visible-xs-block visible-sm-block" style="margin-top: 3.5em; max-width: 80%; margin-bottom: 0em;">
-        <img src="https://s3-us-west-2.amazonaws.com/silofocus/arrow-down%402x.png" alt="arrow" class="img-responsive center-block" style="width: 10%;">
-      </div>
+      
+      <div class="fade-in one">
+	      <div class="row center-block text-center">
+	        <h1 class="tk-myriad-pro">Time Flies, Make the Most of It</h1>
+	      </div>
+	      <div class="row center-block visible-md-block visible-lg-block" style="margin-top: 2.2em; max-width: 600px;">
+	        <img src="https://s3-us-west-2.amazonaws.com/silofocus/watches%402x.png" alt="watches" class="img-responsive">
+	      </div>
+	      <div class="row center-block visible-xs-block visible-sm-block" style="margin-top: 2.2em; max-width: 600px;">
+	        <img src="https://s3-us-west-2.amazonaws.com/silofocus/watches-sm%402x.png" alt="watches" class="img-responsive">
+	      </div>
+	    </div>  
+      <div class="fade-in two">
+	      <div class="row text-center" style="margin-top: 2em;">
+	        <h2 class="tk-myriad-pro">Silo prompts you to focus–with a tap on the wrist.</h2>
+	      </div>
+	      <div class="row center-block" style="margin-top: 2.2em; max-width: 100%;">
+	        <div>
+	          <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Top', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus/App_Store_Badge_US-UK%402x.png" alt="ios" class="img-responsive center-block" style="margin-bottom: 1.2em; max-width: 35%;"> </a>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="fade-in three">
+	      <div class="row center-block visible-md-block visible-lg-block" style="margin-top: 1.2em; max-width: 80%; margin-bottom: 2em;">
+	        <img src="https://s3-us-west-2.amazonaws.com/silofocus/arrow-down%402x.png" alt="arrow" class="img-responsive center-block" style="width: 10%;">
+	      </div>
+	      <div class="row center-block visible-xs-block visible-sm-block" style="margin-top: 3.5em; max-width: 80%; margin-bottom: 0em;">
+	        <img src="https://s3-us-west-2.amazonaws.com/silofocus/arrow-down%402x.png" alt="arrow" class="img-responsive center-block" style="width: 10%;">
+	      </div>
+	    </div>
     </div> 
     
     <div id="container">
       
+    	<div class="story-block center-block hideme">
+        <div class="row center-block text-center">
+          <h1 class="tk-myriad-pro">More Done, in Less Time</h1>
+        </div>
+        <div class="row center-block" style="margin-top: 2.2em;">
+          <img src="https://s3-us-west-2.amazonaws.com/silofocus/timer%402x.png" alt="timer" class="img-responsive center-block" style="max-width: 50%">
+        </div>
+        <div class="row text-center" style="margin-top: 2.2em;">
+          <p class="tk-myriad-pro">The act of focusing on something without distractions, followed by a short break, is a sure way to boost your productivity. Silo Focus manages your time, so you don't have to.</p>
+        </div>
+      </div>
+
+      <div class="story-block center-block hideme">
+      	<div class="row center-block visible-md-block visible-lg-block" style="margin-top: 2.2em;">
+          <img src="https://s3-us-west-2.amazonaws.com/silofocus/box-settings%402x.png" alt="have fun" class="img-responsive center-block">
+        </div>
+        <div class="row center-block visible-xs-block visible-sm-block" style="margin-top: 2.2em;">
+          <img src="https://s3-us-west-2.amazonaws.com/silofocus/box-settings-sm%402x.png" alt="have fun" class="img-responsive center-block">
+        </div>
+       </div>
+
       <div class="story-block center-block hideme">
         <div class="row center-block text-center">
           <h1 class="tk-myriad-pro">Silence Speaks Volumes</h1>
@@ -75,7 +99,10 @@
         <div class="row text-center margin-bottom" style="margin-top: 2.4em;">
           <p class="tk-myriad-pro">Silo uses the Taptic Engine on Watch, to nudge you to focus and take breaks. This gives you a new sense of time and the motivation to get work done.</p>
         </div>
-        <div class="row center-block visible-md-block visible-lg-block" style="margin-top: 2.2em;">
+      </div>
+
+      <div class="story-block center-block hideme">
+      	<div class="row center-block visible-md-block visible-lg-block" style="margin-top: 2.2em;">
           <img src="https://s3-us-west-2.amazonaws.com/silofocus/box-activities%402x.png" alt="have fun" class="img-responsive center-block">
         </div>
         <div class="row center-block visible-xs-block visible-sm-block" style="margin-top: 2.2em;">
@@ -84,24 +111,6 @@
       </div>
 
       <div class="story-block center-block hideme">
-        <div class="row center-block text-center">
-          <h1 class="tk-myriad-pro">More Done, in Less Time</h1>
-        </div>
-        <div class="row center-block" style="margin-top: 2.2em;">
-          <img src="https://s3-us-west-2.amazonaws.com/silofocus/timer%402x.png" alt="timer" class="img-responsive center-block" style="max-width: 50%">
-        </div>
-        <div class="row text-center" style="margin-top: 2.2em;">
-          <p class="tk-myriad-pro">The act of focusing on something without distractions, followed by a short break, is a sure way to boost your productivity. Silo Focus manages your time, so you don't have to.</p>
-        </div>
-        <div class="row center-block visible-md-block visible-lg-block" style="margin-top: 2.2em;">
-          <img src="https://s3-us-west-2.amazonaws.com/silofocus/box-settings%402x.png" alt="have fun" class="img-responsive center-block">
-        </div>
-        <div class="row center-block visible-xs-block visible-sm-block" style="margin-top: 2.2em;">
-          <img src="https://s3-us-west-2.amazonaws.com/silofocus/box-settings-sm%402x.png" alt="have fun" class="img-responsive center-block">
-        </div>
-      </div>
-
-       <div class="story-block center-block hideme">
         <div class="row center-block text-center">
           <h1 class="tk-myriad-pro">Productive Work and Study</h1>
         </div>
@@ -118,7 +127,10 @@
         <div class="row text-center" style="margin-top: 2.2em;">
           <p class="tk-myriad-pro">Silo is a diciplined reminder–right on your wrist. It’s silent and discreet, so you can timebox without distracting anyone around you.</p>
         </div>
-        <div class="row center-block visible-md-block visible-lg-block" style="margin-top: 2.2em;">
+      </div>
+
+      <div class="story-block center-block hideme">
+      	<div class="row center-block visible-md-block visible-lg-block" style="margin-top: 2.2em;">
           <img src="https://s3-us-west-2.amazonaws.com/silofocus/box-office%402x.png" alt="have fun" class="img-responsive center-block">
         </div>
         <div class="row center-block visible-xs-block visible-sm-block" style="margin-top: 2.2em;">
@@ -195,10 +207,12 @@
       <div class="story-block center-block hideme">
         <div class="row center-block" style="margin-top: 2.2em;">
           <div class="def-block">
-            <h2>si·lo /‘sīlō/</h2>
-            <h4><i>verb: silo; 3rd person present: siloes; past tense: siloed</i></h4>
-            <p>1. isolate (one system, process, etc.) from others.</p>
-            <p>2. easy way to get sh*t done.</p>
+            <h2>si·lo <span style="font-weight: lighter;">| 'sīlō |</span></h2>
+            <h4>verb : noun</h4>
+            <ol>
+            	<li>isolate (one system, process, etc.) from others.</li>
+            	<li>better way to get sh*t done.</li>
+            </ol>
           </div>
         </div>
       </div>
@@ -219,7 +233,7 @@
     </div>
     <div class="row center-block border-footer" style="margin-top: 2.2em; max-width: 80%;">
       <footer style="color: #8087A6; margin-top: 0.5em;">
-        Silo Focus &copy 2016 <cite>Dark Matter Developers</cite>
+        Silo Focus &copy 2016 Dark Matter Developers
       </footer>
     </div>
     <script type="text/javascript"> /* Fading divs */
