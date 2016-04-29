@@ -38,11 +38,15 @@ ol {
 
 a {
 	color: #FF324B;
+	text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+  color: #FF324B;
 }
 
 a:hover {
   color: #FF324B;
-  text-decoration: underline;
 }
 
 .font-logo {
