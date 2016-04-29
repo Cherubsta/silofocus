@@ -47,9 +47,8 @@ a:hover {
 
 .font-logo {
 	margin-top: .75em;
-	margin-left: 2em;
 	font-size: 1.8em;
-	margin-bottom: 1.5em;
+	margin-bottom: 1.3em;
 }
 
 .story-block {
@@ -115,7 +114,6 @@ a:hover {
  	}
  .font-logo {
 		font-size: 1.6em;
-		margin-left: 2em;
 	}
 	.story-block {
 		max-width: 92%;
