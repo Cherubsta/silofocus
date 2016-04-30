@@ -172,7 +172,7 @@ a:hover {
 }
  
 .fade-in.three {
-	-webkit-animation-delay: 2.6s;
-	-moz-animation-delay: 2.6s;
-	animation-delay: 2.6.s;
+	-webkit-animation-delay: 2.0s;
+	-moz-animation-delay: 2.0s;
+	animation-delay: 2.0.s;
 }
