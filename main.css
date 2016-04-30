@@ -162,7 +162,7 @@ a:hover {
 .fade-in.one {
 	-webkit-animation-delay: 1.1s ease-in;
 	-moz-animation-delay: 1.1s ease-in;
-	animation-delay: s ease-in;
+	animation-delay: 1.5s ease-in;
 }
  
 .fade-in.two {
