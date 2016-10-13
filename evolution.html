@@ -31,8 +31,17 @@
     ga('send', 'pageview');
   </script>
 </head>
-<body>  
-  <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/badge_sync.png" alt="" class="img-badge_sync">
+<body> 
+  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+      <div class="front">
+        <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/badge_sync.png" alt="" class="img-badge_sync" />
+      </div>
+      <div class="back">
+        <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/badge_check.png" alt="" class="img-badge_sync" />
+      </div>
+    </div>
+  </div>
   <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_hero.png" alt="" class="img-herowatch" onload="imgLoad(this)" style="visibility:hidden;">
   <div class="div-hero">
     <h1>Time flies...<br />make the most of it.</h1>
@@ -48,7 +57,7 @@
     <p>Every task and every person is different. Use the app to choose your own focus-break intervals.</p>
   </div>
   <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_focus.png" alt="" class="img-watch_focus">
-  <div class="div-greyback hideme">
+  <div class="div-greyback">
     <div class="div-focused">
       <h1>Keeps track.</h1>
       <p class="margin-top">Silo tracks the time you spend working and focused on tasks.</p>
