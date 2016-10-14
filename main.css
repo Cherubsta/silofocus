@@ -3,83 +3,172 @@ body {
   color: #fff;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
-
 html, body {
     height: 100%;
 }
-
 h1 {
 	font-size: 3.2em;
 	font-weight: 100;
 }
-
-h2 {
-	font-size: 1.4em;
-	font-weight: 300;
-	/*color: #EF6362;*/
-}
-
 h3 {
-	font-size: 2.0em;
+	font-size: 1.8em;
 	font-weight: 500;
 	margin-top: 0;
 }
-
 h4 {
 	/*color: #EF6362;*/
 }
-
 p {
-	font-size: 2.0em;
+	font-size: 1.6em;
 	font-weight: 200;
 }
-
 ul {
-	font-size: 1.8em;
+	font-size: 1.7em;
 	font-weight: 200;
 	padding-left: 15px;
 }
-
 ol {
   	font-size: 2.0em;
 	font-weight: 200;
   	padding-left: 32px;
 }​
-
 a {
 	color: #FF324B;
 	text-decoration: none;
 }
-
 a, a:visited, a:hover, a:active {
   color: #FF324B;
   text-decoration: none;
 }
-
 a:hover {
   color: #FF324B;
   font-weight: bolder;
 }
+
+
 .margin-top {
 	margin-top: 1.8em;
 }
 
+
+.div-hero {
+    padding-top: 4em;
+    margin-bottom: 2em;
+    margin-right: 12%;
+    overflow: hidden;
+}
+.div-hero-xs {
+	float: left;
+    margin-left: 2em;
+    margin-right: 5em;
+}
+.div-focused {
+	clear: left;
+    float: left;
+    margin-left: 8em;
+    margin-top: 3em;
+    margin-bottom: 8em;
+    width: 44%;
+}
+.div-focused-xs {
+	float: left;
+    margin-left: 2em;
+    margin-top: 6em;
+    margin-bottom: 8em;
+}
+.div-motivate {
+    padding-top: 4em;
+    margin-left: 8em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    overflow: hidden;
+}
+.div-motivate-xs {
+    padding-top: 4em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    overflow: hidden;
+}
+.div-motiate_margin {
+	margin-top: 3em;
+	clear: both;
+}
+.div-motivate_align {
+	overflow: hidden;
+	max-width: 50%;
+	font-size: 0.9em;
+}
+.div-motivate_align-xs {
+	overflow: hidden;
+	max-width: 80%;
+	font-size: 0.9em;
+}
+.div-finalhero {
+	overflow: hidden;
+	max-width: 40%;
+}
+.div-greyback {
+	background-color: #171717;
+	overflow: auto;
+	clear: both;
+}
+.div-dictionary {
+	margin-left: 12em;
+	margin-top: 4em;
+	overflow: hidden;
+	display: block;
+	border: solid 0.5px;
+	border-radius: 8px;
+	padding: 1em 1em 1em 1em;
+	max-width: 60%;
+}
+.div-contact {
+	font-size: 2em;
+    font-weight: 200;
+    line-height: 32px;
+    margin-right: 2em;
+    margin-top: 4em;
+    text-align: right;
+}
+.div-contact-xs {
+	font-size: 1.5em;
+    font-weight: 200;
+    line-height: 32px;
+    margin-right: 1em;
+    margin-top: 4em;
+    text-align: right;
+}
+.div-footer {
+    margin-left: 8em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    color: #4A4A4A;
+}
+.div-footer-xs {
+    margin-left: 1em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    overflow: hidden;
+    color: #4A4A4A;
+}
+
+.img-appstore {
+	margin-top: 5%;
+    width: 50%;
+}
 .img-herowatch {
     max-width: 38%;
     position: relative;
     float: left;
-    margin-right: 5em;
+    margin-right: 8%;
 }
 .img-badge_sync {
     margin-left: 10px;
     margin-top: 10px;
     max-width: 65%;
     position: relative;
-}
-.img-tweet {
-    margin-left: 0.8em;
-    margin-right: 0.5em;
-    max-width: 2.5%;
 }
 .img-watch_focus {
 	float: right;
@@ -103,95 +192,45 @@ a:hover {
     max-width: 22%;
 }
 .img-box_activities {
-	margin-bottom: 9em;
+	margin-bottom: 8em;
     margin-left: 8em;
-    margin-top: 12em;
+    margin-top: 8em;
     max-width: 70%;
 }
-.img-appstore {
-	margin-top: 4em;
-    width: 40%;
+.img-box_activities_xs {
+	margin-bottom: 4em;
+    margin-left: 2em;
+    max-width: 80%;
 }
 .img-motivate {
-	max-width: 15%;
+	max-width: 10%;
     position: relative;
     float: left;
     margin-right: 4em;
 }
-.div-hero {
-    padding-top: 4em;
-    margin-bottom: 2em;
-    margin-right: 10em;
-    overflow: hidden;
-}
-.div-focused {
-	clear: left;
-    float: left;
-    margin-left: 8em;
+.img-motivate-xs {
+	float: left;
+    margin-right: 1em;
     margin-top: 3em;
-    width: 44%;
+    max-width: 20%;
+    position: relative;
 }
-.div-motivates {
-    padding-top: 4em;
-    margin-left: 8em;
-    margin-bottom: 2em;
-    margin-right: 2em;
-    overflow: hidden;
+.img-tweet {
+    margin-left: 0.8em;
+    margin-right: 0.5em;
+    max-width: 2.5%;
 }
-.div-motivate_align {
-	overflow: hidden;
-	max-width: 60%;
-	font-size: 0.9em;
-}
-.div-finalhero {
-	overflow: hidden;
-	max-width: 40%;
-}
-.div-motiate_margin {
-	margin-top: 3em;
-	clear: both;
-}
-.div-greyback {
-	background-color: #171717;
-	overflow: auto;
-	clear: both;
-	padding-bottom: 8em;
-}
-.div-dictionary {
-	margin-left: 12em;
-	margin-top: 4em;
-	overflow: hidden;
-	display: block;
-	border: solid 0.5px;
-	border-radius: 8px;
-	padding: 1em 1em 1em 1em;
-	max-width: 60%;
-}
-.div-contact {
-	font-size: 2em;
-    font-weight: 200;
-    line-height: 32px;
-    margin-right: 2em;
-    margin-top: 4em;
-    text-align: right;
-}
-.div-footer {
-    margin-left: 8em;
-    margin-right: 2em;
-    margin-bottom: 2em;
-    overflow: hidden;
-    color: #4A4A4A;
+.img-tweet-xs {
+    margin-left: 0.8em;
+    margin-right: 0.5em;
+    max-width: 5.5%;
 }
 .list-breaks {
 	display: inline-block;
-	margin-right: 1.8em;
+	margin-right: 1.3em;
 }
 
 
-/*.badge{
-	background-image: url(https://s3-us-west-2.amazonaws.com/silofocus-new/badge_sync.png);
-} 
-*/  
 
 .flip-container {
   	float: right;
@@ -228,6 +267,7 @@ a:hover {
   /* back, initially hidden pane */
 }
 .flip-container .flipper .front, .flip-container .flipper .back {
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   position: absolute;
   top: 0;
@@ -241,8 +281,6 @@ a:hover {
 .flip-container .flipper .back {
   transform: rotateY(540deg);
 }
-
-/*.flip-container*/
 
 
 
