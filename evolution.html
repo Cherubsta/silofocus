@@ -34,7 +34,6 @@
 
 
 <body>
-  <div class="container" style="margin: 0"></div> 
   <div class="flip-container visible-sm-block visible-md-block visible-lg-block" ontouchstart="this.classList.toggle('hover');">
     <div class="flipper">
       <div class="front">
@@ -45,7 +44,7 @@
       </div>
     </div>
   </div>
-  <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_hero.png" alt="" class="img-herowatch">
+  <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_hero.png" alt="" class="img-herowatch" onload="imgLoad(this)" style="visibility:hidden">
 
 
   <div class="div-hero">
@@ -53,7 +52,7 @@
     <div class="visible-sm-block visible-md-block visible-lg-block">
       <h3 class="margin-top">SILO |focus| for Watch</h3>
       <p>Prompts you to focus and take breaks, with just a tap on the wrist.</p>
-      <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"> </a>
+      <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore" onload="imgLoad(this)" style="visibility:hidden"> </a>
     </div>
   </div>
   <div class="div-hero-xs visible-xs-block">
@@ -169,7 +168,7 @@
   </div>
 
 
-  <div class="hideme visible-sm-block visible-md-block visible-lg-block">
+  <div class="div-motivate hideme visible-sm-block visible-md-block visible-lg-block">
     <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_breaks.png" alt="" class="img-watch_breaks">
     <div class="div-motivate_align">
       <h1>Takes breaks.</h1>
@@ -207,41 +206,44 @@
   </div>
   
 
-  <div class="div-greyback hideme visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-focused">
-      <h1>It’s a noisy world.</h1>
-      <p class="margin-top">Silo Focus is designed and developed to help you unplug from the noise and focus on what matters most.</p>
+  <div class="div-greyback">
+    <div class="hideme visible-sm-block visible-md-block visible-lg-block">
+      <div class="div-focused">
+        <h1>It’s a noisy world.</h1>
+        <p class="margin-top">Silo Focus is designed and developed to help you unplug from the noise and focus on what matters most.</p>
+      </div>
+      <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_today.png" alt="" class="img-watch_haptics">
     </div>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_today.png" alt="" class="img-watch_haptics">
-  </div>
-  <div class="div-greyback visible-xs-block">
-    <div class="div-focused-xs hideme" style="margin-right: 12%; margin-top: 12%">
-      <h1>It’s a noisy world.</h1>
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_today.png" alt="" style="width: 80%; margin-top: 4%">
-      <p class="margin-top">Silo Focus is designed and developed to help you unplug from the noise and focus on what matters most.</p>
-    </div>
-  </div>
-
-
-  <div class="div-motivates div-greyback hideme visible-sm-block visible-md-block visible-lg-block">
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_notification.png" alt="" class="img-watch_breaks">
-    <div class="div-finalhero">
-      <h1>It's about time to let time, manage itself.</h1>
-    </div>
-    <div class="div-motivate_align">
-      <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"> </a>
-    </div>
-  </div>
-  <div class="div-greyback visible-xs-block">
-    <div class="div-focused-xs hideme" style="margin-right: 12%; margin-top: 12%">
-      <h1>It's about time to let time, manage itself.</h1>
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_notification.png" alt="" style="width: 70%; margin-top: 4%">
-      <div class="margin-top">
-        <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"> </a>
+    <div class="div-greyback visible-xs-block">
+      <div class="div-focused-xs hideme" style="margin-right: 12%; margin-top: 12%">
+        <h1>It’s a noisy world.</h1>
+        <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_today.png" alt="" style="width: 80%; margin-top: 4%">
+        <p class="margin-top">Silo Focus is designed and developed to help you unplug from the noise and focus on what matters most.</p>
       </div>
     </div>
   </div>
 
+
+  <div class="div-greyback">
+    <div class="div-motivate hideme visible-sm-block visible-md-block visible-lg-block">
+      <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_notification.png" alt="" class="img-watch_breaks">
+      <div class="div-finalhero">
+        <h1>It's about time to let time, manage itself.</h1>
+      </div>
+      <div class="div-motivate_align">
+        <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"> </a>
+      </div>
+    </div>
+    <div class="visible-xs-block">
+      <div class="div-focused-xs hideme" style="margin-right: 12%; margin-top: 12%">
+        <h1>It's about time to let time, manage itself.</h1>
+        <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_notification.png" alt="" style="width: 70%; margin-top: 4%">
+        <div class="margin-top">
+          <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"> </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="div-dictionary visible-sm-block visible-md-block visible-lg-block">
     <p><b>si·lo</b> <span style="font-weight: lighter;">/'sīlō/</span></p>
@@ -283,7 +285,6 @@
       Silo |focus| &copy 2016 Dark Matter Developers
     </footer>
   </div>
-
 
   <script type="text/javascript"> /* Fading divs */
     $(document).ready(function() {

@@ -67,7 +67,7 @@ a:hover {
     float: left;
     margin-left: 8em;
     margin-top: 3em;
-    margin-bottom: 8em;
+    margin-bottom: 24em;
     width: 44%;
 }
 .div-focused-xs {
@@ -79,7 +79,7 @@ a:hover {
 .div-motivate {
     padding-top: 4em;
     margin-left: 8em;
-    margin-bottom: 2em;
+    margin-bottom: 16em;
     margin-right: 2em;
     overflow: hidden;
 }
@@ -114,7 +114,7 @@ a:hover {
 	clear: both;
 }
 .div-dictionary {
-	margin-left: 12em;
+	margin-left: 8em;
 	margin-top: 4em;
 	overflow: hidden;
 	display: block;
