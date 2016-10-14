@@ -136,7 +136,7 @@ a:hover {
     font-weight: 200;
     line-height: 32px;
     margin-right: 1em;
-    margin-top: 4em;
+    margin-top: 1em;
     text-align: right;
 }
 .div-footer {
@@ -168,6 +168,12 @@ a:hover {
     margin-left: 10px;
     margin-top: 10px;
     max-width: 65%;
+    position: relative;
+}
+.img-badge_sync-xs {
+    margin-left: 17px;
+    margin-top: 10px;
+    max-width: 66%;
     position: relative;
 }
 .img-watch_focus {
@@ -231,7 +237,6 @@ a:hover {
 }
 
 
-
 .flip-container {
   	float: right;
     margin-top: 4em;
@@ -280,6 +285,59 @@ a:hover {
 }
 .flip-container .flipper .back {
   transform: rotateY(540deg);
+}
+
+.flip-container2 {
+  	margin-top: 4em;
+    max-width: 25%;
+    margin-left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	/* flip the pane when hovered */
+	/* flip speed goes here */
+	/*.flipper*/
+}
+.flip-container2:hover .flipper, .flip-container2.hover .flipper {
+  transform: rotateY(540deg);
+}
+.flip-container2,
+.flip-container2 .front,
+.flip-container2 .back {
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.flip-container2 .flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+  /* hide back of pane during swap */
+  /* front pane, placed above back */
+  /* back, initially hidden pane */
+}
+.flip-container2 .flipper .front, .flip-container2 .flipper .back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.flip-container2 .flipper .front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+.flip-container2 .flipper .back {
+  transform: rotateY(540deg);
+}
+
+#delaybox {
+	display: none; 
 }
 
 

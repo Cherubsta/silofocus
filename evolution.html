@@ -12,14 +12,8 @@
   <!-- Latest Bootstrap compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="main.css">
-  <script>
-  	function imgLoad(img) {
-    	img.style.visibility='visible';
-		}	
-  </script>
   <!-- Latest Bootstrap compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <title>SILO |focus|</title>
   <script>
@@ -29,6 +23,11 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-75413532-1', 'auto');
     ga('send', 'pageview');
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('#delaybox').delay(1000).fadeIn(400);
+    });
   </script>
 </head>
 
@@ -44,21 +43,21 @@
       </div>
     </div>
   </div>
-  <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_hero.png" alt="" class="img-herowatch" onload="imgLoad(this)" style="visibility:hidden">
 
-
-  <div class="div-hero">
+  
+  <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_hero.png" alt="" class="img-herowatch">
+  <div class="div-hero" id="delaybox">
     <h1>Time flies...<br />make the most of it.</h1>
     <div class="visible-sm-block visible-md-block visible-lg-block">
       <h3 class="margin-top">SILO |focus| for Watch</h3>
       <p>Prompts you to focus and take breaks, with just a tap on the wrist.</p>
-      <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore" onload="imgLoad(this)" style="visibility:hidden"> </a>
+      <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"></a>
     </div>
   </div>
-  <div class="div-hero-xs visible-xs-block">
+  <div class="div-hero-xs visible-xs-block" id="delaybox">
     <h3 class="margin-top">SILO |focus| for Watch</h3>
     <p>Prompts you to focus and take breaks, with just a tap on the wrist.</p>
-    <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Top', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"> </a>
+    <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Top', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"></a>
   </div>
 
 
@@ -262,6 +261,17 @@
     </ol>
   </div>
   
+  <div class="flip-container2 visible-xs-block" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+      <div class="front">
+        <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/badge_sync.png" alt="" class="img-badge_sync-xs" />
+      </div>
+      <div class="back">
+        <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/badge_check.png" alt="" class="img-badge_sync-xs" />
+      </div>
+    </div>
+  </div>
+
 
   <div class="div-contact visible-sm-block visible-md-block visible-lg-block">
     <div><a href="https://blog.silofocus.com" target="_blank">blog@silofocus.com</a></div>
@@ -299,16 +309,6 @@
             $(this).animate({'opacity':'1'},3000);
           }
         }); 
-      });
-    });
-  </script>
-  <script type="text/javascript"> /* Scroll to top */
-    $(document).ready(function () {
-      $('.scrollup').click(function () {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 600);
-        return false;
       });
     });
   </script>
