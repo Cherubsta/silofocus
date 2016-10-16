@@ -26,7 +26,12 @@
   </script>
   <script>
     $(document).ready(function() {
-      $('#delaybox').delay(1000).fadeIn(400);
+      $('#delaybox').delay(1500).fadeIn(800);
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('#delaybox-xs').delay(1500).fadeIn(800);
     });
   </script>
   <script>
@@ -51,18 +56,22 @@
 
   
   <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/watch_hero.png" alt="" class="img-herowatch">
-  <div class="div-hero" id="delaybox">
-    <h1>Time flies...<br />make the most of it.</h1>
-    <div class="visible-sm-block visible-md-block visible-lg-block">
-      <h3 class="margin-top">SILO |focus| for Watch</h3>
-      <p id="delaybox">Prompts you to focus and take breaks, with just a tap on the wrist.</p>
-      <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"></a>
+  <div id="delaybox">
+    <div class="div-hero">
+      <h1>Time flies...<br />make the most of it.</h1>
+      <div class="visible-sm-block visible-md-block visible-lg-block">
+        <h3 class="margin-top">SILO |focus| for Watch</h3>
+        <p>Prompts you to focus and take breaks, with just a tap on the wrist.</p>
+        <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"></a>
+      </div>
     </div>
   </div>
-  <div class="div-hero-xs visible-xs-block" id="delaybox">
-    <h3 class="margin-top">SILO |focus| for Watch</h3>
-    <p id="delaybox">Prompts you to focus and take breaks, with just a tap on the wrist.</p>
-    <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Top', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"></a>
+  <div id="delaybox-xs">
+    <div class="div-hero-xs visible-xs-block">
+      <h3 class="margin-top">SILO |focus| for Watch</h3>
+      <p>Prompts you to focus and take breaks, with just a tap on the wrist.</p>
+      <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Top', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus-new/App_Store_Badge_US-UK.png" alt="ios" class="img-appstore"></a>
+    </div>
   </div>
 
 
@@ -310,7 +319,7 @@
           var bottom_of_object = $(this).offset().top + $(this).outerHeight();
           var bottom_of_window = $(window).scrollTop() + $(window).height();
           /* If the object is completely visible in the window, fade it in */
-          if( bottom_of_window > (bottom_of_object - 575) ){
+          if( bottom_of_window > (bottom_of_object - 625) ){
             $(this).animate({'opacity':'1'},3000);
           }
         }); 

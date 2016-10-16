@@ -149,7 +149,7 @@ a:hover {
 .div-footer-xs {
     margin-left: 1em;
     margin-top: 3em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     overflow: hidden;
     color: #4A4A4A;
 }
@@ -337,6 +337,9 @@ a:hover {
 }
 
 #delaybox {
+	display: none; 
+}
+#delaybox-xs {
 	display: none; 
 }
 #delaybox2 {
