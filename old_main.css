@@ -1,274 +1,235 @@
 body {
   background-color:#000000;
-  color: #b3b3b3;
+  color: #e3e3e3;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 html, body {
     height: 100%;
 }
 h1 {
-	font-size: 40px;
-  font-weight: 100;
-  margin-bottom: 40px;
-  margin-top: 20px;
-  line-height: 1.00;
+	font-size: 3.2em;
+	font-weight: 100;
 }
 h2 {
-	font-size: 20px;
+	font-size: 2.2em;
 	font-weight: 700;
 	margin-top: 0;
-  margin-bottom: 0;
 }
 p {
-	font-size: 20px;
-	font-weight: 100;
-  margin-bottom: 30px;
+	font-size: 1.6em;
+	font-weight: 200;
 }
 ul {
-	min-width: 500px;
-  font-size: 20px;
+	font-size: 1.7em;
 	font-weight: 200;
 	padding-left: 15px;
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  -webkit-column-gap: 48px; /* Chrome, Safari, Opera */
-  -moz-column-gap: 48px; /* Firefox */
-  column-gap: 48px;
 }
 ol {
-  font-size: 20px;
-	font-weight: 100;
-  padding-left: 32px;
+  	font-size: 2.0em;
+	font-weight: 200;
+  	padding-left: 32px;
 }​
-li {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
 a {
 	color: #FF324B;
 	text-decoration: none;
 }
 a, a:visited, a:hover, a:active {
   color: #FF324B;
-  /*text-decoration: none;*/
+  text-decoration: none;
 }
 a:hover {
   color: #FF324B;
   font-weight: bolder;
 }
 
+
 .margin-top {
 	margin-top: 1.8em;
 }
-.div-center {
-  margin: 10 auto 8em; 
-  width: 80%; 
-  text-align: center;
-}
-.div-aligntext {
-  text-align: left;
-}
+
+
 .div-hero {
-  margin-top: 2em;
-  margin-right: 12%;
-  overflow: hidden;
+    padding-top: 4em;
+    margin-bottom: 2em;
+    margin-right: 12%;
+    overflow: hidden;
 }
-.div-hero-right {
-  max-width: 55%;
-  margin-left: 36%;
-}
-.div-works {
-  padding-top: 2em;
-  margin-bottom: 15em;
-  margin-left: 8em;
-  margin-right: 12%;
-  clear: both;
+.div-hero-xs {
+	float: left;
+    margin-left: 2em;
+    margin-right: 5em;
 }
 .div-focused {
 	clear: left;
-  float: left;
-  margin-left: 8em;
-  margin-top: 3em;
-  margin-bottom: 15em;
-  width: 40%;
+    float: left;
+    margin-left: 8em;
+    margin-top: 3em;
+    margin-bottom: 15em;
+    width: 44%;
 }
-.div-blockquote {
-  float: left;
-  clear: left;
-  width: 50%;
-  margin-top: 5em;
-}
-.div-blockquote-sm {
-  width: 80%;
-  text-align: left;
-}
-.div-quote {
-  margin-left: 8em;
-  margin-bottom: 8em;
+.div-focused-xs {
+	float: left;
+    margin-left: 2em;
+    margin-top: 6em;
+    margin-bottom: 8em;
 }
 .div-motivate {
-  margin-top: 3em;
-  margin-left: 8em;
-  margin-bottom: 11em;
-  margin-right: 2em;
-  overflow: hidden;
-  clear: both;
+    padding-top: 8em;
+    margin-left: 8em;
+    margin-bottom: 11em;
+    margin-right: 2em;
+    overflow: hidden;
 }
-.div-motivate-sm {
-  margin-top: 10px;
-  margin-left: 2em;
-  margin-bottom: 8em;
-  margin-right: 2em;
-  overflow: hidden;
+.div-motivate-xs {
+    padding-top: 4em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    overflow: hidden;
 }
-.div-motivate-align {
+.div-motiate_margin {
+	margin-top: 3em;
+	clear: both;
+}
+.div-motivate_align {
 	overflow: hidden;
-	max-width: 56%;
+	max-width: 50%;
+	font-size: 0.9em;
 }
-.div-motivate-align-sm {
+.div-motivate_align-xs {
 	overflow: hidden;
 	max-width: 80%;
-	font-size: 12px;
+	font-size: 0.9em;
+}
+.div-finalhero {
+	overflow: hidden;
+	max-width: 40%;
 }
 .div-greyback {
 	background-color: #171717;
 	overflow: auto;
 	clear: both;
 }
-.div-blueback {
-  background-color: #3DCACF;
-  overflow: auto;
-  clear: both;
-  margin-bottom: 8em;
-  padding-left: 20%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #fff;
-}
 .div-dictionary {
+	margin-left: 8em;
+	margin-top: 4em;
+	overflow: hidden;
 	display: block;
 	border: solid 0.5px;
-	border-radius: 5px;
-	padding: 7px 7px 0px 7px;
-  width: 85%;
-}
-.div-trainer {
-  margin-top: 8;
-  margin-bottom: 8;
-  padding-top: 8;
-}
-.div-trainer-sm {
-  margin-bottom: 0;
+	border-radius: 8px;
+	padding: 1em 1em 1em 1em;
+	max-width: 60%;
 }
 .div-contact {
-	font-size: 20px;
-  font-weight: 200;
-  line-height: 32px;
-  margin-right: 1em;
-  margin-top: 2em;
-  text-align: right;
+	font-size: 2em;
+    font-weight: 200;
+    line-height: 32px;
+    margin-right: 2em;
+    margin-top: 4em;
+    text-align: right;
 }
-.div-contact-sm {
+.div-contact-xs {
 	font-size: 1.5em;
-  font-weight: 200;
-  line-height: 32px;
-  margin-right: 1em;
-  margin-top: 1em;
-  text-align: right;
+    font-weight: 200;
+    line-height: 32px;
+    margin-right: 1em;
+    margin-top: 1em;
+    text-align: right;
 }
 .div-footer {
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-bottom: 2em;
-  overflow: hidden;
-  color: #4A4A4A;
+    margin-left: 8em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    color: #4A4A4A;
 }
-.div-footer-sm {
-  margin-left: 1em;
-  margin-top: 3em;
-  margin-bottom: 2em;
-  overflow: hidden;
-  color: #4A4A4A;
+.div-footer-xs {
+    margin-left: 1em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    color: #4A4A4A;
 }
 
 .img-appstore {
-  width: 150;
-  margin-top: 20px;
+	margin-top: 5%;
+    width: 50%;
 }
 .img-herowatch {
-  position: relative;
-  float: left;
-  margin-right: 10%;
+    max-width: 38%;
+    position: relative;
+    float: left;
+    margin-right: 8%;
 }
 .img-badge_sync {
-  margin-left: 10px;
-  margin-top: 10px;
-  max-width: 65%;
-  position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    max-width: 65%;
+    position: relative;
 }
-.img-badge_sync-sm {
-  margin-left: 17px;
-  margin-top: 10px;
-  max-width: 66%;
-  position: relative;
+.img-badge_sync-xs {
+    margin-left: 17px;
+    margin-top: 10px;
+    max-width: 66%;
+    position: relative;
 }
-.img-iphone-focus {
-  float: left;
+.img-watch_focus {
+	float: right;
+    max-width: 32%;
 }
-.img-iphone-home {
-  float: left;
-  max-width: 28%;
-  margin-top: 4em;
-  margin-left: 6em;
+.img-watch_haptics {
+	float: right;
+    max-width: 36%;
+    padding-right: 4em;
+    padding-top: 6em;
 }
-.img-watch-focus {
-  float: left;
-  max-width: 26%;
-  margin-top: 5em;
-  margin-left: 7em;
+.img-watch_chart {
+	float: right;
+    max-width: 31%;
+    padding-right: 8em;
+    padding-top: 4em;
 }
-.img-watch-haptics {
+.img-watch_breaks {
 	float: left;
-  max-width: 30%;
-  margin-left: 4em;
-  margin-top: 5em;
+    margin-right: 4em;
+    max-width: 22%;
 }
-.img-watch-chart {
-	float: left;
-  margin-left: 8em;
-  margin-top: 5em;
+.img-box_activities {
+	margin-bottom: 8em;
+    margin-left: 8em;
+    max-width: 70%;
 }
-.img-watch-works {
-	float: left;
-  margin-right: 4em;
+.img-box_activities_xs {
+	margin-bottom: 4em;
+    margin-left: 2em;
+    max-width: 80%;
 }
 .img-motivate {
-  max-width: 9%;
-  position: relative;
-  float: left;
-  clear: left;
-  margin-right: 4em;
-  padding-top: 16px;
+	max-width: 10%;
+    position: relative;
+    float: left;
+    margin-right: 4em;
 }
-.img-motivate-sm {
-  float: left;
-  margin-right: 1em;
-  margin-top: 1em;
-  max-width: 16%;
-}
-.img-trainer {
-  float: left;
-  width: 60px;
-  margin-right: 20px;
+.img-motivate-xs {
+	float: left;
+    margin-right: 1em;
+    margin-top: 3em;
+    max-width: 20%;
+    position: relative;
 }
 .img-tweet {
-  margin-left: 0.8em;
-  max-width: 26px;
+    margin-left: 0.8em;
+    margin-right: 0.5em;
+    max-width: 2.5%;
 }
-.img-tweet-sm {
-  margin-left: 0.8em;
-  max-width: 5.5%;
+.img-tweet-xs {
+    margin-left: 0.8em;
+    margin-right: 0.5em;
+    max-width: 5.5%;
+}
+.list-breaks {
+	display: inline-block;
+	margin-right: 1.3em;
 }
 
 
@@ -377,7 +338,7 @@ a:hover {
 #delaybox {
 	display: none; 
 }
-#delaybox-sm {
+#delaybox-xs {
 	display: none; 
 }
 #delaybox2 {
@@ -385,10 +346,11 @@ a:hover {
 }
 
 
+
+
 @media(max-width: 800px) { /* for devies under 600px width, iPhone 6+ */
   h1 {
-    font-size: 30px;
-    margin-bottom: 24px;
+    font-size: 1.6em;
   }
   h2 {
     font-size: 1.3em;
@@ -402,14 +364,17 @@ a:hover {
     font-size: 0.9em;
   }
   p {
-  	font-size: 18px;	
+  	font-size: 1.2em;	
   }
-  ol {
-    font-size: 18px;
-  }
-  ul {
- 	  min-width: 325px;
-    font-size: 15px;
-    column-gap: 35px;
+
+ ul {
+ 		font-size: 0.8em;
  	}
+ .font-logo {
+		font-size: 1.8em;
+	}
+	.story-block {
+		max-width: 92%;
+		margin-bottom: 100px;
+	}
 }
