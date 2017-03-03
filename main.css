@@ -54,15 +54,15 @@ a, a:visited, a:hover, a:active {
 }
 a:hover {
   color: #FF324B;
-  font-weight: bolder;
+  /*font-weight: bolder;*/
 }
 .container {
-  max-width: 850;
+  max-width: 920;
   margin: 0 auto;
   text-align: center
 }
 .div-center {
-  margin: 2em auto 6em; 
+  margin: 2em auto 10em; 
   width: 80%; 
   text-align: center;
   overflow: auto;
@@ -137,7 +137,8 @@ a:hover {
   background-color: #3DCACF;
   overflow: auto;
   clear: both;
-  margin-bottom: 8em;
+  margin-bottom: 20em;
+  margin-top: 5em;
   padding-left: 20%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -193,11 +194,6 @@ a:hover {
 .img-appstore {
   width: 150;
   margin-top: 20px;
-}
-.img-herowatch {
-  position: relative;
-  float: left;
-  margin-right: 8em;
 }
 .img-iphone-focus {
   float: right;
@@ -338,7 +334,7 @@ a:hover {
   -webkit-border-radius: 100px;
   border-radius: 100px;
   width: 100px;
-  height: 100px;
+  height: 170px;
   overflow: hidden;
 }
 .flip-container2 .flipper {
@@ -403,4 +399,17 @@ a:hover {
   font-size: 12px;
   column-gap: 35px;
  	}
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .div-landscape-sm {
+    float: right; 
+    width: 50%;
+  }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .div-landscape-sm { 
+    width: 100%;
+  }
 }
