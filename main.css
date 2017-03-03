@@ -75,54 +75,7 @@ a:hover {
   float: left;
   clear: left;
 }
-.div-hero {
-  margin-top: 2em;
-  margin-right: 12%;
-  overflow: hidden;
-}
-.div-hero-right {
-  max-width: 60%;
-  margin-left: 36%;
-}
-.div-works {
-  padding-top: 2em;
-  margin-bottom: 15em;
-  margin-left: 8em;
-  margin-right: 12%;
-  clear: both;
-}
-.div-focused {
-	clear: left;
-  float: left;
-  margin-left: 8em;
-  margin-top: 3em;
-  margin-bottom: 15em;
-  width: 40%;
-}
-.div-blockquote {
-  float: left;
-  clear: left;
-  width: 50%;
-}
-.div-quote {
-  margin-left: 8em;
-  margin-bottom: 8em;
-}
-.div-motivate {
-  margin-top: 3em;
-  margin-left: 8em;
-  margin-bottom: 11em;
-  margin-right: 2em;
-  overflow: hidden;
-  clear: both;
-}
-.div-motivate-sm {
-  margin-top: 10px;
-  margin-left: 2em;
-  margin-bottom: 8em;
-  margin-right: 2em;
-  overflow: hidden;
-}
+
 .div-motivate-align {
   text-align: left;
 	max-width: 80%;
@@ -139,9 +92,6 @@ a:hover {
   clear: both;
   margin-bottom: 20em;
   margin-top: 5em;
-  padding-left: 20%;
-  padding-top: 10px;
-  padding-bottom: 10px;
   color: #fff;
 }
 .div-dictionary {
@@ -151,14 +101,6 @@ a:hover {
 	border-radius: 5px;
 	padding: 7px 7px 0px 7px;
   width: 60%;
-}
-.div-trainer {
-  margin-top: 8;
-  margin-bottom: 8;
-  padding-top: 8;
-}
-.div-trainer-sm {
-  margin-bottom: 0;
 }
 .div-contact {
 	font-size: 20px;
@@ -195,28 +137,9 @@ a:hover {
   width: 150;
   margin-top: 20px;
 }
-.img-iphone-focus {
-  float: right;
-}
-.img-watch-focus {
+.img-float-right {
   float: right;
   margin-top: 4em;
-}
-.img-watch-chart {
-  float: right;
-  margin-top: 4em;
-}
-.img-iphone-home {
-  float: right;
-  margin-top: 4em;
-}
-.img-watch-haptics {
-	float: right;
-  margin-top: 4em;
-}
-.img-watch-works {
-	float: left;
-  margin-right: 4em;
 }
 .img-motivate {
   max-width: 9%;
@@ -237,13 +160,7 @@ a:hover {
   width: 60px;
   margin-right: 20px;
 }
-.img-badge_sync {
-  margin-left: 10px;
-  margin-top: 10px;
-  max-width: 65%;
-  position: relative;
-}
-.img-badge_sync-sm {
+.img-badge {
   margin-left: 17px;
   margin-top: 10px;
   max-width: 66%;
@@ -262,11 +179,11 @@ a:hover {
 .hideme {
   opacity:0;
 }
+
 .flip-container {
-	float: right;
-	margin-top: 4em;
-	max-width: 10%;
-	position: relative;
+  	margin-top: 4em;
+    max-width: 25%;
+    margin-left: 50%;
 	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
@@ -285,7 +202,7 @@ a:hover {
   -webkit-border-radius: 100px;
   border-radius: 100px;
   width: 100px;
-  height: 100px;
+  height: 170px;
   overflow: hidden;
 }
 .flip-container .flipper {
@@ -312,63 +229,11 @@ a:hover {
   transform: rotateY(540deg);
 }
 
-.flip-container2 {
-  	margin-top: 4em;
-    max-width: 25%;
-    margin-left: 50%;
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	/* flip the pane when hovered */
-	/* flip speed goes here */
-	/*.flipper*/
-}
-.flip-container2:hover .flipper, .flip-container2.hover .flipper {
-  transform: rotateY(540deg);
-}
-.flip-container2,
-.flip-container2 .front,
-.flip-container2 .back {
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;
-  width: 100px;
-  height: 170px;
-  overflow: hidden;
-}
-.flip-container2 .flipper {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  position: relative;
-  /* hide back of pane during swap */
-  /* front pane, placed above back */
-  /* back, initially hidden pane */
-}
-.flip-container2 .flipper .front, .flip-container2 .flipper .back {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.flip-container2 .flipper .front {
-  z-index: 2;
-  /* for firefox 31 */
-  transform: rotateY(0deg);
-}
-.flip-container2 .flipper .back {
-  transform: rotateY(540deg);
-}
-
 #delaybox {
-	display: none; 
+	display: none;
 }
 #delaybox-sm {
-	display: none; 
-}
-#delaybox2 {
-	display: none; 
+  display: none;
 }
 
 
