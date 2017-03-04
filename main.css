@@ -75,7 +75,15 @@ a:hover {
   float: left;
   clear: left;
 }
-
+.div-header {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.div-header-sm {
+  font-size: 18px;
+  margin-bottom: 4px;
+  margin-top: 3px;
+}
 .div-motivate-align {
   text-align: left;
 	max-width: 80%;
