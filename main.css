@@ -264,6 +264,11 @@ a:hover {
   font-size: 12px;
   column-gap: 35px;
  	}
+  .container {
+  max-width: 1000;
+  margin: 0 auto;
+  text-align: center
+}
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
