@@ -19,6 +19,11 @@
 <body>
 <div class="container">
   <div style="min-height: 500px;">
+    <script>
+      $(document).ready(function() {
+        $('#delaybox').delay(1000).fadeIn(800);
+      });
+    </script>
     <div id="delaybox">
       <div class="visible-sm-block visible-md-block visible-lg-block">
         <div class="div-center" style="margin-bottom: 0">      
@@ -55,6 +60,11 @@
     </div>
   </div>
 
+  <script>
+    $(document).ready(function() {
+      $('#delaybox-sm').delay(1000).fadeIn(800);
+    });
+  </script>
   <div id="delaybox-sm">
     <div class="div-center visible-sm-block visible-md-block visible-lg-block">
       <div class="div-aligntext" style="min-height: 500px">  
@@ -378,16 +388,6 @@
 </div>
 </body>
 
-<script>
-  $(document).ready(function() {
-    $('#delaybox').delay(1000).fadeIn(800);
-  });
-</script>
-<script>
-  $(document).ready(function() {
-    $('#delaybox-sm').delay(1000).fadeIn(800);
-  });
-</script>
 <script type="text/javascript"> /* Fading divs */
   $(document).ready(function() {
     /* Every time the window is scrolled ... */
