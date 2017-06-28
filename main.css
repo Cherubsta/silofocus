@@ -9,7 +9,7 @@ html, body {
 h1 {
   font-family: 'Helvetica Neue', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
 	font-size: 40px;
-  font-weight: 100;
+  font-weight: lighter;
   margin-bottom: 40px;
   margin-top: 20px;
   line-height: 1.00;
@@ -298,6 +298,9 @@ a:hover {
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+  body{
+    font-family: 'Helvetica', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Arial', 'Lucida Grande', 'sans-serif';
+  }
   .div-landscape-sm {
     float: right; 
     width: 50%;
@@ -305,6 +308,9 @@ a:hover {
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+  body{
+    font-family: 'Helvetica', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Arial', 'Lucida Grande', 'sans-serif';
+  }
   .div-landscape-sm { 
     width: 100%;
   }
