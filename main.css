@@ -105,6 +105,16 @@ a:hover {
   margin-top: 5em;
   color: #fff;
 }
+.div-bugalert {
+  background-color: #FF324B;
+  display: block;
+  padding: 8px;
+  width: 100%;
+  color: #000;
+  font-size: 14;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
 .div-dictionary {
   float: right;
 	display: block;
