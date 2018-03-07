@@ -1,13 +1,13 @@
 body {
   background-color:#000000;
   color: #b3b3b3;
-  font-family: 'Helvetica Neue', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+  font-family: 'Helvetica', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
 }
 html, body {
     height: 100%;
 }
 h1 {
-  font-family: 'Helvetica Neue', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+  font-family: 'Helvetica', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
 	font-size: 40px;
   font-weight: lighter;
   margin-bottom: 40px;
@@ -63,8 +63,8 @@ a:hover {
   text-align: center
 }
 .div-center {
-  margin: 2em auto 10em; 
-  width: 80%; 
+  margin: 2em auto 10em;
+  width: 80%;
   text-align: center;
   overflow: auto;
 }
@@ -321,7 +321,7 @@ a:hover {
     font-size: 0.9em;
   }
   p {
-  	font-size: 18px;	
+  	font-size: 18px;
   }
   ol {
     font-size: 18px;
@@ -332,8 +332,8 @@ a:hover {
   column-gap: 35px;
  	}
   .div-center {
-    margin: 2em auto 10em; 
-    width: 92%; 
+    margin: 2em auto 10em;
+    width: 92%;
     text-align: center;
     overflow: auto;
   }
@@ -344,7 +344,7 @@ a:hover {
     font-family: 'Helvetica', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Arial', 'Lucida Grande', 'sans-serif';
   }
   .div-landscape-sm {
-    float: right; 
+    float: right;
     width: 50%;
   }
 }
@@ -353,7 +353,7 @@ a:hover {
   body{
     font-family: 'Helvetica', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Arial', 'Lucida Grande', 'sans-serif';
   }
-  .div-landscape-sm { 
+  .div-landscape-sm {
     width: 100%;
   }
 }
