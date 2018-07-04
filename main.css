@@ -101,12 +101,20 @@ a:hover {
   background-color: #3DCACF;
   overflow: auto;
   clear: both;
-  margin-bottom: 20em;
+  margin-bottom: 4em;
   margin-top: 5em;
   color: #fff;
 }
+.div-yellowback {
+  background-color: #7579f9;
+  overflow: auto;
+  clear: both;
+  margin-bottom: 20em;
+  margin-top:;
+  color: #fff;
+}
 .div-bugalert {
-  background-color: #FF324B;
+  background-color: #7579f9;
   display: block;
   padding: 8px;
   width: 100%;
