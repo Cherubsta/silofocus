@@ -54,7 +54,7 @@ ul {
 }
 
 .font-red {
-  color: #FF375F;
+  color: #5052FF;
 }
 
 @media (max-width: 767px) {
@@ -167,4 +167,29 @@ footer {
 }
 .flip-container .flipper .back {
   transform: rotateY(540deg);
+}
+
+.button-glow:hover {
+  opacity: 0.8;
+}
+
+.chevron:hover {
+  animation: bounce 3s;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
