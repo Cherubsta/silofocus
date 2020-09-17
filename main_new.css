@@ -1,6 +1,6 @@
 body {
   color: #353535;
-  font-family: 'Baloo 2', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Baloo 2', sans-serif;
 }
 
 h1 {
@@ -54,7 +54,7 @@ ul {
 }
 
 .font-red {
-  color: #5052FF;
+  color: #FF375F;
 }
 
 @media (max-width: 767px) {
@@ -63,12 +63,24 @@ ul {
     outline: none;
   }
 }
+.navbar-custom {
+  padding-left:10px;
+  opacity: 0.5;
+}
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.button-glow:hover {
+  opacity: 0.6;
+}
+
+.chevron:hover {
+  animation: bounce 2s;
 }
 
 .spacing-top-lg {
@@ -93,11 +105,6 @@ a.getapp:hover {
   border: 1px solid #D8D8D8;
 }
 
-.navbar-custom {
-  padding-left:10px;
-  opacity: 0.5;
-}
-
 .blockquote {
   padding-left: 20px;
   border-left: 7px solid #D8D8D8;
@@ -110,8 +117,9 @@ a.getapp:hover {
 }
 
 footer {
-  color: #D8D8D8;
+  color: #353535;
   margin-bottom: 10px;
+  opacity: 0.4;
 }
 
 .flip-badge {
@@ -169,25 +177,15 @@ footer {
   transform: rotateY(540deg);
 }
 
-.button-glow:hover {
-  opacity: 0.8;
-}
-
-.chevron:hover {
-  animation: bounce 2s;
-}
-
 @keyframes bounce {
   0%, 20%, 60%, 100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
-
   40% {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
-
   80% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
