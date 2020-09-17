@@ -191,3 +191,13 @@ footer {
     transform: translateY(-10px);
   }
 }
+
+.carousel-indicators {
+  bottom: -60px;
+}
+.carousel-indicators li {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  filter: invert(0.5);
+}

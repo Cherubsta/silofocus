@@ -204,11 +204,20 @@
       <h2>People ♥️ silo</h2>
     </div>
     <div class="row center d-md-none d-lg-none d-xl-none">
-      <h2 style="font-size: 26px">People ♥️ silo</h2>
+      <h2 style="font-size: 36px">People ♥️ silo</h2>
     </div>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+     </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active" data-interval="3000">
+        <div class="carousel-item active">
           <div class="row spacing-top-sm">
             <div class="card center w-75">
               <div class="card-body text-left">
@@ -220,7 +229,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item" data-interval="3000">
+        <div class="carousel-item">
           <div class="row spacing-top-sm">
             <div class="card center w-75">
               <div class="card-body text-left">
@@ -232,7 +241,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item" data-interval="3000">
+        <div class="carousel-item">
           <div class="row spacing-top-sm">
             <div class="card center w-75">
               <div class="card-body text-left">
@@ -244,7 +253,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item" data-interval="3000">
+        <div class="carousel-item">
           <div class="row spacing-top-sm">
             <div class="card center w-75">
               <div class="card-body text-left">
@@ -256,7 +265,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item" data-interval="3000">
+        <div class="carousel-item">
           <div class="row spacing-top-sm">
             <div class="card center w-75">
               <div class="card-body text-left">
@@ -268,7 +277,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item" data-interval="3000">
+        <div class="carousel-item">
           <div class="row spacing-top-sm">
             <div class="card center w-75">
               <div class="card-body text-left">
@@ -280,7 +289,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item" data-interval="3000">
+        <div class="carousel-item">
           <div class="row spacing-top-sm">
             <div class="card center w-75">
               <div class="card-body text-left">
@@ -301,6 +310,11 @@
   </div>
 
   <!-- JS, Popper.js, and jQuery -->
+  <script type="text/javascript">
+  $('.carousel').carousel({
+    interval: 2000
+    })
+  </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
