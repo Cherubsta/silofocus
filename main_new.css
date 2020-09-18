@@ -59,6 +59,9 @@ ul {
 .font-grey {
   opacity: 0.4;
 }
+.font-gold {
+  color: #F29938;
+}
 
 @media (max-width: 767px) {
   .navbar-toggler {
@@ -113,11 +116,6 @@ a.getapp:hover {
 .quote {
   font-size: 2rem;
   font-weight: 100;
-}
-
-sup {
-  font-size: 14px;
-  top: -1.4em;
 }
 
 footer {
