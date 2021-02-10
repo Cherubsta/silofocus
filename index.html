@@ -1,446 +1,321 @@
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <meta name="description" content="SILO nudges you to focus and take breaks using WATCH">
-  <meta name="keywords" content="pomodoro technique, focus timer, study timer, timeboxing, timebox, pomodoro, interval timer, interval timing, silent timer">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="#1 pomodoro focus timer on WATCH">
+  <meta name="keywords" content="pomodoro, focus timer, study timer, timeboxing, timebox, interval timer, interval timing, silent timer">
   <meta name="apple-itunes-app" content="app-id=1086491369, affiliate-data=myAffiliateData, app-argument=myURL">
-  <meta name="p:domain_verify" content="cbd918d42c0706aec374000d11b43a3d"/> <!-- pinterest verify -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@silofocus" />
+  <meta name="twitter:creator" content="@cherubsta" />
+  <meta property="og:url" content="https://silofocus.com/" />
+  <meta property="og:title" content="Take on your day with focus" />
+  <meta property="og:description" content="A simple focus tool to get small things done and make big things happen" />
+  <meta property="og:image" content="https://silofocus1.s3.amazonaws.com/badge_check.png" />
 
-  <meta name="twitter:card" content="app">
-  <meta name="twitter:site" content="@silofocus">
-  <meta name="twitter:description" content="Stay one tap away from focus. SILO nudges you to focus and take breaks using the WATCH.">
-  <meta name="twitter:app:country" content="US">
-  <meta name="twitter:app:name:iphone" content="SILO Focus">
-  <meta name="twitter:app:id:iphone" content="1086491369">
-  <meta name="twitter:app:url:iphone" content="https://appsto.re/us/PROWab.i">
-  <meta name="twitter:app:name:ipad" content="SILO Focus">
-  <meta name="twitter:app:id:ipad" content="1086491369">
-  <meta name="twitter:app:url:ipad" content="https://appsto.re/us/PROWab.i">
-
-  <link rel="apple-touch-icon" sizes="57x57" href="https://s3-us-west-2.amazonaws.com/silofocus/appletouch-icon57.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://s3-us-west-2.amazonaws.com/silofocus/appletouch-icon120.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://s3-us-west-2.amazonaws.com/silofocus/appletouch-icon180.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://silofocus1.s3.amazonaws.com/appletouch-icon57.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://silofocus1.s3.amazonaws.com/appletouch-icon120.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://silofocus1.s3.amazonaws.com/silofocus/appletouch-icon180.png">
   <link rel="shortcut icon" href="https://s3-us-west-2.amazonaws.com/silofocus/favicon.png">
-  <!-- Latest Bootstrap compiled and minified CSS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="main.css">
-  <title>SILO |focus|</title>
+  <link href="https://fonts.googleapis.com/css?family=Baloo+2|Montserrat:400,800,900&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <title>silo focus</title>
 </head>
 <body>
-<div class="container">
-  <div style="min-height: 570px;">
-    <script>
-      $(document).ready(function() {
-        $('#delaybox').delay(1000).fadeIn(800);
-      });
-    </script>
-    <div id="delaybox">
-      <div class="visible-sm-block visible-md-block visible-lg-block">
-        <div class="div-center" style="margin-bottom: 0">
-          <div class="divide">
-            <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-hero.png" alt="WATCH" style="float: left"; width="250">
-          </div>
-          <div class="div-aligntext">
-            <div style="clear: right;">
-              <img src="https://s3-us-west-2.amazonaws.com/silofocus/header-logo.png" alt="Apple Watch" width="200" style="margin-bottom: 4px">
-              <div class="div-header">SILO |focus| for WATCH</div>
-              <img src="https://s3-us-west-2.amazonaws.com/silofocus/header-logo.png" alt="Apple Watch" width="200" style="margin-bottom: 4px">
-            </div>
-            <div style="float: right; width: 50%;">
-              <h1 style="font-size: 50px">Don’t let time, manage you</h1>
-              <p style="font-size: 24px">SILO nudges you to focus and take breaks, right from your wrist</p>
-              <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Top', 'Clicked', 'Spring Campaign', '1');"><img class="button-glow img-appstore" src="https://s3-us-west-2.amazonaws.com/silofocus/appstore.png" alt="app store"></a>
-            </div>
-          </div>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="padding-top: 15px;">
+      <a class="navbar-brand" href="#">
+        <img src="https://silofocus1.s3.amazonaws.com/app-icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> <span class="navbar-custom">|silo|</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="mailto:contact@silofocus.com?subject=👋silo support">Contact</a>
+          <a class="nav-item nav-link getapp" href="https://appsto.re/us/PROWab.i" style="color: #FF375F;">Get the App<span class="sr-only">(current)</span></a>
         </div>
       </div>
-      <div class="visible-xs-block">
-        <div class="div-center" style="margin-top: 1em;">
-          <img src="https://s3-us-west-2.amazonaws.com/silofocus/header-logo-sm.png" alt="Apple Watch" style="margin-top: 20px;" width="200">
-            <div class="div-header-sm">SILO |focus| for WATCH</div>
-          <img src="https://s3-us-west-2.amazonaws.com/silofocus/header-logo-sm.png" alt="Apple Watch" style="margin-bottom: 20px;" width="200">
-          <div class="div-aligntext">
-            <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-hero.png" alt="WATCH" class="img-herowatch-sm" width="190">
-            <div class="div-landscape-sm">
-              <h1>Don’t let time, manage you</h1>
-              <p>SILO nudges you to focus and take breaks, right from your wrist</p>
-              <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Top', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus/appstore.png" alt="app store" class="img-appstore"></a>
-            </div>
-          </div>
+    </nav>
+
+    <div class="spacing-top d-none d-md-block">
+      <div class="row">
+        <div class="col-5" style="align-items: center">
+          <img class="float-right" src="https://silofocus1.s3.amazonaws.com/focus-watch.png" style="margin:40px" alt="Lamp" height="340px">
+        </div>
+        <div class="col-7">
+          <h1 class="spacing-top-sm">
+            work <br>
+            study <br>
+            create <br>
+            <span class="font-red">focused.</span>
+          </h1>
         </div>
       </div>
     </div>
-  </div>
+    <div class="spacing-top-sm d-md-none d-lg-none d-xl-none">
+      <div class="row">
+        <img class="center" src="https://silofocus1.s3.amazonaws.com/focus-watch.png" alt="Lamp" height="340px">
+      </div>
+      <div class="row center spacing-top-sm">
+        <h1 style="font-size: 26px">
+          work, study, create <br>
+          <span class="font-red">focused.</span>
+        </h1>
+      </div>
+    </div>
 
-  <div class="visible-sm-block visible-md-block visible-lg-block">
-    <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
-      <h3>Watch the video</h3>
-      <div style="clear: left; margin-top: 50px; margin-bottom: 170px;"><img class="div-glow" src="https://s3-us-west-2.amazonaws.com/silofocus/icon-play.png" style="cursor:pointer;" width="90px;" /></div>
+    <div class="row center spacing-top-sm">
+      <a href="https://appsto.re/us/PROWab.i" class="button-glow"><img src="https://silofocus1.s3.amazonaws.com/badge-wt.png" alt="Lamp" height="54"></a>
     </div>
-    <div style="display:none; margin-bottom: 170px;">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/YzncVWTalEA?rel=0&showinfo=0&cc_load_policy=1&modestbranding=0" frameborder="0" allowfullscreen></iframe>
+    <div class="row center spacing-top">
+      <p class="center" style="max-width: 410px">A simple focus tool to get small things done and make big things happen</p>
     </div>
-  </div>
-  <div class="visible-xs-block">
-    <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
-      <h3>Watch the video</h3>
-      <div style="clear: left; margin-top: 50px; margin-bottom: 170px;"><img class="div-glow" src="https://s3-us-west-2.amazonaws.com/silofocus/icon-play.png" style="cursor:pointer;" width="90px;" /></div>
+    <div class="row center">
+      <a><img class="bounce" src="https://silofocus1.s3.amazonaws.com/chevron.png" alt="Lamp" height="6"></a>
     </div>
-    <div style="display:none; margin-bottom: 170px;">
-      <iframe width="300" height="169" src="https://www.youtube.com/embed/YzncVWTalEA?rel=0&showinfo=0&cc_load_policy=1&modestbranding=0" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
 
-  <script>
-    $(document).ready(function() {
-      $('#delaybox-sm').delay(1000).fadeIn(800);
-    });
-  </script>
-  <div id="delaybox-sm">
-    <div class="div-center visible-sm-block visible-md-block visible-lg-block">
-      <div class="div-aligntext" style="min-height: 340px">
-        <blockquote class="divide">
-          <p>"You can't really put a price on productivity...to add something to your daily life without too much intrusion or making it complicated, that's what I think the watch is all about, and I think this app does a great job of that."</p>
-          <footer>Tom Gates, <cite title="Source Title"><a href="http://www.applewatchcast.com/blog/2016/6/12/episode-113-sweat-all-you-want-youll-be-fine?rq=113" target="_blank">Apple WatchCast Podcast</a></cite></footer>
+
+    <div class="row center spacing-top-lg d-none d-md-block">
+      <h2>take on the day</h2>
+      <h2>with focus</h2>
+      <div class="row spacing-top-sm">
+        <div class="col-7">
+          <img class="img-fluid" src="https://silofocus1.s3.amazonaws.com/to-dos.png" alt="Lamp" height="580px">
+        </div>
+        <div class="col-5 align-self-center text-left" style="margin-bottom: 110px; right:110px;">
+          <h3>Plan your To Do's</h3>
+          <p style="max-width: 400px">Add your tasks of the day and complete them one by one, pomodoro-style</p>
+          <h3 class="spacing-top">Never miss a beat</h3>
+          <p style="max-width: 400px">A series of haptic notifications nudge you to stay focused and take breaks</p>
+        </div>
+      </div>
+    </div>
+    <div class="row center spacing-top-lg d-md-none d-lg-none d-xl-none">
+      <h2 style="font-size: 30px">take on the day</h2>
+      <h2 style="font-size: 30px">with focus</h2>
+      <div class="spacing-top-sm">
+        <img class="center img-fluid" src="https://silofocus1.s3.amazonaws.com/to-dos-sm.png" alt="Lamp" height="600">
+      </div>
+      <div class="row text-left">
+        <div class="col" style="bottom:50px">
+          <h3>Plan your To Do's</h3>
+          <p style="max-width: 400px">Add your tasks of the day and complete them one by one, pomodoro-style</p>
+          <h3>Never miss a beat</h3>
+          <p style="max-width: 400px">A series of haptic notifications nudge you to stay focused and take breaks</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row spacing-top-lg">
+      <img class="center" src="https://silofocus1.s3.amazonaws.com/stars.png" alt="Lamp" height="40">
+    </div>
+    <div class="row spacing-sm">
+      <div class="center spacing-top">
+        <blockquote class="blockquote text-left">
+          <p class="quote">"To add something to your daily life without too much intrusion or making it complicated, that's what the watch is all about, and I think this app does a great job of that"</p>
         </blockquote>
-        <img src="https://s3-us-west-2.amazonaws.com/silofocus/iphone.png" alt="iphone" width="240" style="float: right;">
+        <footer class="blockquote-footer spacing-top-sm" style="font-size:18px">Tom Gates<cite title="Source Title"> Apple WatchCast Podcast</cite></footer>
       </div>
     </div>
-    <div class="visible-xs-block">
-      <div class="div-center" style="min-height: 500px">
-        <img src="https://s3-us-west-2.amazonaws.com/silofocus/iphone.png" alt="iphone" width="200" style="margin-bottom: 20px">
-        <blockquote class="div-aligntext hideme">
-          <p>"You can't really put a price on productivity...to add something to your daily life without too much intrusion or making it complicated, that's what I think the watch is all about, and I think this app does a great job of that."</p>
-          <footer>Tom Gates, <cite title="Source Title"><a href="http://www.applewatchcast.com/blog/2016/6/12/episode-113-sweat-all-you-want-youll-be-fine?rq=113" target="_blank">Apple WatchCast Podcast</a></cite></footer>
-        </blockquote>
-      </div>
-    </div>
-  </div>
 
-  <div class="div-center visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-aligntext divide hideme">
-      <h1>Simply press focus</h1>
-      <h2>FOCUS METHOD</h2>
-      <p>Based on a productivity hack, SILO taps you on the wrist to nudge you to focus and take breaks</p>
-      <h2>HOUR TRACKING</h2>
-      <p>SILO keeps track of your work hours throughout the day</p>
-      <h2>DISTRACTION DODGING</h2>
-      <p>Incoming distractions are muted—allowing you to focus in peace and quiet</p>
-    </div>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-focus.png" alt="focus" width="250" class="img-float-right">
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-focus.png" alt="focus" width="200">
-      <div class="div-aligntext">
-        <h1>Simply press focus</h1>
-        <h2>FOCUS METHOD</h2>
-        <p>Based on a productivity hack, SILO taps you on the wrist to nudge you to focus and take breaks</p>
-        <h2>HOUR TRACKING</h2>
-        <p>SILO keeps track of your work hours throughout the day</p>
-        <h2>DISTRACTION DODGING</h2>
-        <p>Incoming distractions are muted—allowing you to focus in peace and quiet</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-center hideme">
-      <div class="divide">
-        <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-settings.png" alt="Watch Settings" width="190" style="margin-right: 4em; float: left;">
-      </div>
-      <div class="div-aligntext">
-        <h1>How it works</h1>
-        <ol>
-          <li style="margin-bottom: 20px">Choose a task to work on, and press focus</li>
-          <li style="margin-bottom: 20px">After 25 minutes, SILO taps you on the wrist for a 5-minute break</li>
-          <li style="margin-bottom: 20px">After break, another tap nudges you back to work&mdash;for 4 cycles</li>
-        </ol>
-        <img src="https://s3-us-west-2.amazonaws.com/silofocus/box-activities.png" alt="pomodoro" width="360" style="float: right;">
-      </div>
-    </div>
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-settings.png" alt="Apple Watch" width="150">
-      <div class="div-aligntext">
-        <h1>How it works</h1>
-        <ol>
-          <li style="margin-bottom: 10px">Choose a task to work on, and press focus</li>
-          <li style="margin-bottom: 10px">After 25 minutes, SILO taps you on the wrist for a 5-minute break</li>
-          <li style="margin-bottom: 10px">After break, another tap nudges you back to work&mdash;for 4 cycles</li>
-        </ol>
-      </div>
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus/box-activities.png" alt="Watch" width="100%" style="margin-top: 20px;">
-    </div>
-  </div>
-
-  <div class="div-center visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-aligntext divide hideme">
-      <h1>Track work hours</h1>
-      <p>For those looking for a simple time tracker without too many features, SILO has you covered</p>
-      <p>By simultaneously counting the hours while you focus, the hour-tracker is designed to just work</p>
-      <p>A glance lets you check progress throughout the day (or bi-week), and track your billable time</p>
-    </div>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-chart.png" alt="track time" class="img-float-right" width="190">
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-chart.png" alt="track time" width="150">
-      <div class="div-aligntext">
-        <h1>Track work hours</h1>
-        <p>For those looking for a simple time tracker without too many features, SILO has you covered</p>
-        <p>By simultaneously counting the hours while you focus, the hour-tracker is designed to just work</p>
-        <p>A glance lets you check progress throughout the day (or bi-week), and track your billable time</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-center hideme">
-      <div class="divide" style="width: 40%">
-        <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-break.png" alt="Take Breaks" width="190" style="margin-right: 4em; float: left;">
-      </div>
-      <div class="div-aligntext">
-        <h1>Taking breaks</h1>
-        <p>The short break is key to letting your mind refresh after a period of intense focus</p>
-        <p>Taking your mind off of work for 5 minutes is like a breath of fresh air, a reminder to keep the body moving, or:</p>
-        <ul>
-          <li>meditate / unplug</li>
-          <li>go for a walk</li>
-          <li>check news / email</li>
-          <li>organize workspace</li>
-          <li>stand up and stretch</li>
-          <li>prepare a new task</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-break.png" alt="Watch Break" width="150">
-      <div class="div-aligntext">
-        <h1>Taking breaks</h1>
-        <p>The short break is key to letting your mind refresh after a period of intense focus</p>
-        <p>Taking your mind off of work for 5 minutes is like a breath of fresh air and a reminder to keep the body moving</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="div-center visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-aligntext divide hideme">
-      <h1>iPhone, ready</h1>
-      <p>While designed for WATCH, there are times you might want to use your iPhone to focus. The SILO iPhone app works in your pocket just as well</p>
-      <p>Just like its WATCH counterpart, enabling Airplane Mode keeps interruptions away while you focus</p>
-    </div>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus/iphone-home.png" alt="focus" class="img-float-right" width="230">
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus/iphone-home.png" alt="focus" width="200">
-      <div class="div-aligntext">
-        <h1>iPhone, ready</h1>
-        <p>While designed for WATCH, there are times you might want to use your iPhone to focus. The SILO iPhone app works in your pocket just as well</p>
-        <p>Just like its WATCH counterpart, enabling Airplane Mode keeps interruptions away while you focus</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="div-center visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-aligntext divide hideme">
-      <h1>Silence speaks volumes</h1>
-      <p>The WATCH Taptic Engine delivers unique tapping sensations that nudge you through focus sessions. It's a rewarding and motivating feeling that works perfectly with timeboxing</p>
-      <p>Meanwhile, the silence lets you focus in quiet places, while not disturbing others around</p>
-    </div>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-haptics.png" alt="silence" class="img-float-right" width="230">
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-haptics.png" alt="track time" width="226">
-      <div class="div-aligntext">
-        <h1>Silence speaks volumes</h1>
-        <p>The WATCH Taptic Engine delivers unique tapping sensations that nudge you through focus sessions. It's a rewarding and motivating feeling that works perfectly with timeboxing</p>
-        <p>Meanwhile, the silence lets you focus in quiet places, while not disturbing others around</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="div-center visible-sm-block visible-md-block visible-lg-block hideme">
-    <div class="div-aligntext">
-      <h1>Work. Study. Create.</h1>
-    </div>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus/icon-work.png" alt="Apple Watch" class="img-motivate">
-    <div class="div-motivate-align">
-      <h2>WORK</h2>
-      <p>At the workplace, SILO gives you a framework to boost productivy. This lets you get more done in less time</p>
-    </div>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus/icon-study.png" alt="Apple Watch" class="img-motivate">
-    <div class="div-motivate-align">
-      <h2>STUDY</h2>
-      <p>While timer apps can be noisy and distracting, SILO is silent but powerful. It's like having a diciplined mentor remind you to get back to the books</p>
-    </div>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus/icon-create.png" alt="Apple Watch" class="img-motivate">
-    <div class="div-motivate-align">
-      <h2>CREATE</h2>
-      <p>Creative efforts are often accomplished in focused bursts of time. Let SILO motivate you to practice music, write at your best, and make art</p>
-    </div>
-  </div>
-  <div class="div-center visible-xs-block hideme">
-    <h1>Work. Study. Create.</h1>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus/icon-work.png" alt="Apple Watch" class="img-motivate-sm">
-    <div class="div-motivate-align">
-      <h2>WORK</h2>
-      <p style="font-size: 14px;">At the workplace, SILO gives you a framework to boost productivy. This lets you get more done in less time</p>
-    </div>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus/icon-study.png" alt="Apple Watch" class="img-motivate-sm">
-    <div class="div-motivate-align">
-      <h2>STUDY</h2>
-      <p style="font-size: 14px;">While timer apps can be noisy and distracting, SILO is silent but powerful. It's like having a diciplined mentor remind you to get back to the books</p>
-    </div>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus/icon-create.png" alt="Apple Watch" class="img-motivate-sm">
-    <div class="div-motivate-align">
-      <h2>CREATE</h2>
-      <p style="font-size: 14px;">Creative efforts are often accomplished in focused bursts of time. Let SILO motivate you to practice music, write at your best, and make art</p>
-    </div>
-  </div>
-
-  <div class="div-center visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-aligntext divide hideme">
-      <h1 style="font-size: 45px;">It’s a noisy world&mdash;turn your focus on</h1>
-      <p>In the era of distractions and procrastination, SILO lets you unplug and focus on what matters. Spend less time feeling guilty about work and more time doing what you love</p>
-    </div>
-    <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-today.png" alt="focus" class="img-float-right" width="220">
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-today.png" alt="focus" width="200">
-      <div class="div-aligntext">
-        <h1>It’s a noisy world&mdash;turn your focus on</h1>
-        <p>In the era of distractions and procrastination, SILO lets you unplug and focus on what matters. Spend less time feeling guilty about work and more time doing what you love</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-center hideme">
-      <div class="divide" style="width: 40%">
-        <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-focus-alert.png" alt="Back to work" width="200" style="margin-right: 4em; float: left;">
-      </div>
-      <div class="div-aligntext">
-        <h1 style="font-size: 60px; margin-top: 0px">Find the time to get sh*t done</h1>
-        <div class="div-dictionary">
-          <div style="font-size: 16px"><b>si·lo</b> <span style="font-weight: lighter;">/'sīlō/</span></div>
-          <div style="font-size: 12px; font-weight: 100">verb/noun: silo; past tense: siloed; present participle: siloing</div>
-          <ol style="font-size: 14px; font-weight: 100">
-            <li style="padding-top: 10px; padding-left: 0px;">isolate (one system, process, etc.) from others/li>
-            <li style="padding-top: 5px; padding-left: 0px;">better way to get sh*t done</li>
-          </ol>
+    <div class="spacing-top-lg d-none d-md-block">
+      <div class="row">
+        <div class="col-6" style="align-items: center">
+          <img class="float-right" src="https://silofocus1.s3.amazonaws.com/press-watch.png" style="margin:40px" alt="Lamp" height="340px">
         </div>
-        <div>
-          <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img class="button-glow img-appstore" src="https://s3-us-west-2.amazonaws.com/silofocus/appstore.png" alt="ios"> </a>
+        <div class="col-6" style="top:50px">
+          <h1>simply</h1>
+          <h1>press</h1>
+          <h1 class="font-red">focus</h1>
         </div>
       </div>
     </div>
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus/watch-focus-alert.png" alt="Back to work" width="150">
-      <div class="div-aligntext">
-        <h1 style="margin-top: 10px">Find the time to get sh*t done</h1>
-        <div class="div-dictionary" style="width: 100%;">
-          <div style="font-size: 16px"><b>si·lo</b> <span style="font-weight: lighter;">/'sīlō/</span></div>
-          <div style="font-size: 12px; font-weight: 100">verb/noun: silo; past tense: siloed; present participle: siloing</div>
-          <ol style="font-size: 14px; font-weight: 100">
-            <li style="padding-top: 10px; padding-left: 0px;">isolate (one system, process, etc.) from others/li>
-            <li style="padding-top: 5px; padding-left: 0px;">better way to get sh*t done</li>
-          </ol>
+    <div class="spacing-top-lg d-md-none d-lg-none d-xl-none">
+      <div class="row">
+        <img class="center" src="https://silofocus1.s3.amazonaws.com/press-watch.png" alt="Lamp" height="340px">
+      </div>
+      <div class="col spacing-top-sm">
+        <h1 style="font-size: 26px">simply press <span class="font-red">focus</span></h1>
+      </div>
+    </div>
+    <div class="col center">
+      <p class="center" style="max-width: 460px; text-align:left;">silo is designed around a minimalistic experience, to keep you focused on what matters. The focus-break method is motivating, rewarding, and customizable to your preferences.</p>
+    </div>
+
+    <div class="row center spacing-top-lg d-none d-md-block">
+      <h2>everything you need,</h2>
+      <h2>nothing you don't</h2>
+      <div class="row spacing-top-sm">
+        <div class="col-7">
+          <img class="img-fluid" src="https://silofocus1.s3.amazonaws.com/stats.png" alt="Lamp" height="580px">
         </div>
-        <div style="margin-top: 20px;">
-          <a href="https://appsto.re/us/PROWab.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"> <img src="https://s3-us-west-2.amazonaws.com/silofocus/appstore.png" alt="ios" class="img-appstore"> </a>
+        <div class="col-5 align-self-center text-left" style="margin-bottom: 110px; right:110px;">
+          <h3 class="font-red" style="margin-left:20px">Say hello to silo 2.0</h3>
+          <ul>
+            <li><span class="font-grey">✓</span> #1 focus timer on WATCH</li>
+            <li><span class="font-grey">✓</span> Plan your day with To Do’s</li>
+            <li><span class="font-grey">✓</span> Track hours focused</li>
+            <li><span class="font-grey">✓</span> Presets for timers</li>
+            <li><span class="font-grey">✓</span> Mute distractions in airplane mode</li>
+            <li><span class="font-grey">✓</span> Stats for completed tasks</li>
+            <li><span class="font-grey">✓</span> Data backed up to iCloud</li>
+            <li><span class="font-grey">✓</span> All new watch face Complications</li>
+            <li><span class="font-grey">✓</span> Dark mode</li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="div-blueback visible-sm-block visible-md-block visible-lg-block">
-  <div class="div-center" style="margin-bottom: 10px; margin-top: 15px; max-width: 50%;">
-    <a href="http://silotrainer.com"><img src="https://s3-us-west-2.amazonaws.com/silofocus/trainer-icon.png" alt="trainer" class="img-trainer"></a>
-    <p class="div-aligntext" style="margin-bottom: 7px">For fitness and HIIT training, check out:<br><a href="http://silotrainer.com/" target="_blank" style="color: #011627; text-decoration: underline;">SILO trainer</a></p>
-   </div>
-</div>
-<div class="div-blueback visible-xs-block">
-  <div class="div-center" style="margin-top: 20px; margin-bottom: 0px;">
-    <a href="http://silotrainer.com"><img src="https://s3-us-west-2.amazonaws.com/silofocus/trainer-icon.png" alt="Apple Watch" class="img-trainer"></a>
-    <p class="div-aligntext">For fitness and HIIT training, check out: <a href="http://silotrainer.com/" target="_blank" style="color: #011627; text-decoration: underline;">SILO trainer</a></p>
-  </div>
-</div>
-<div class="div-yellowback visible-sm-block visible-md-block visible-lg-block">
-  <div class="div-center" style="margin-bottom: 10px; margin-top: 15px; max-width: 50%;">
-    <a href="http://silozen.com"><img src="https://s3.us-east-2.amazonaws.com/silozen/appletouch-icon180.png" alt="trainer" class="img-trainer"></a>
-    <p class="div-aligntext" style="margin-bottom: 7px">For timed and meditation and yoga, check out:<br><a href="http://silozen.com/" target="_blank" style="color: #011627; text-decoration: underline;">SILO zen</a></p>
-   </div>
-</div>
-<div class="div-yellowback visible-xs-block">
-  <div class="div-center" style="margin-top: 20px; margin-bottom: 0px;">
-    <a href="http://silozen.com"><img src="https://s3.us-east-2.amazonaws.com/silozen/appletouch-icon180.png" alt="Apple Watch" class="img-trainer"></a>
-    <p class="div-aligntext">For timed and meditation and yoga, check out: <a href="http://silozen.com/" target="_blank" style="color: #011627; text-decoration: underline;">SILO zen</a></p>
-  </div>
-</div>
-
-<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-  <div class="flipper">
-    <div class="front">
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus/badge_sync.png" alt="silo" class="img-badge" />
+    <div class="row center spacing-top-lg d-md-none d-lg-none d-xl-none" style="padding-bottom:140px">
+      <h2 style="font-size: 26px">everything you need,</h2>
+      <h2 style="font-size: 26px">nothing you don't</h2>
+      <div class="spacing-top-sm">
+        <img class="center img-fluid" src="https://silofocus1.s3.amazonaws.com/stats-sm.png" alt="Lamp" height="600">
+      </div>
+      <div class="row text-left">
+        <div class="col" style="bottom:50px">
+          <h3 class="font-red" style="margin-left:20px">Say hello to silo 2.0</h3>
+          <ul>
+            <li><span class="font-grey">✓</span> #1 focus timer on WATCH</li>
+            <li><span class="font-grey">✓</span> Plan your day with To Do’s</li>
+            <li><span class="font-grey">✓</span> Track hours focused</li>
+            <li><span class="font-grey">✓</span> Presets for timers</li>
+            <li><span class="font-grey">✓</span> Mute distractions in airplane mode</li>
+            <li><span class="font-grey">✓</span> Stats for completed tasks</li>
+            <li><span class="font-grey">✓</span> Data backed up to iCloud</li>
+            <li><span class="font-grey">✓</span> All new watch face Complications</li>
+            <li><span class="font-grey">✓</span> Dark mode</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="back">
-      <img src="https://s3-us-west-2.amazonaws.com/silofocus/badge_check.png" alt="silo" class="img-badge" />
+
+    <div class="row center spacing-top d-none d-md-block">
+      <h2>People ♥️ silo</h2>
+    </div>
+    <div class="row center spacing-top d-md-none d-lg-none d-xl-none">
+      <h2 style="font-size: 30px">People ♥️ silo</h2>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+     </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row spacing-top-sm">
+            <div class="card center w-75">
+              <div class="card-body text-left">
+                <h5 class="card-title">Winner, winner</h5>
+                <h4 class="card-subtitle mb-2 font-gold">⭑⭑⭑⭑⭑</h4>
+                <p class="card-text">I use this app everyday. It's simple and impossible to get distracted by (with the update), which is ideal if you're easily side-tracked like me. It's also way more customizable than some of the other apps I looked at.</p>
+                <footer>—L. Swift</footer>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row spacing-top-sm">
+            <div class="card center w-75">
+              <div class="card-body text-left">
+                <h5 class="card-title">Best Pomodoro-style app for Watch</h5>
+                <h4 class="card-subtitle mb-2 font-gold">⭑⭑⭑⭑⭑</h4>
+                <p class="card-text">I've tried several pomodoro apps that work with Apple Watch, and this is the best one I've found. It surprised me how stable it runs, and I like how the countdown is designed. It's pleasing to use overall. Cheers to the developer(s).</p>
+                <footer>–Rupelstiltkin</footer>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row spacing-top-sm">
+            <div class="card center w-75">
+              <div class="card-body text-left">
+                <h5 class="card-title">All day, every day</h5>
+                <h4 class="card-subtitle mb-2 font-gold">⭑⭑⭑⭑⭑</h4>
+                <p class="card-text">This app feels like a new organ of my body that gives me superpowers. It isn't even hard anymore for me to stop being lazy and start getting my stuff done. It works just the way it should: set your routine on your phone, beam it instantly to your watch, and then tap the big red button, and you're working. The watch will remind you if you drift off.</p>
+                <footer>–PortalKeeper</footer>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row spacing-top-sm">
+            <div class="card center w-75">
+              <div class="card-body text-left">
+                <h5 class="card-title">Life changing app!!!</h5>
+                <h4 class="card-subtitle mb-2 font-gold">⭑⭑⭑⭑⭑</h4>
+                <p class="card-text">This app has drastically improved my daily life. It helps to increase my focus at work/home and having the app manage this task is one less thing I have to worry about day to day. Whomever developed this app is a genius. I would have given 10 stars had that been an option.</p>
+                <footer>–ForrestKnest</footer>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row spacing-top-sm">
+            <div class="card center w-75">
+              <div class="card-body text-left">
+                <h5 class="card-title">Perfect.</h5>
+                <h4 class="card-subtitle mb-2 font-gold">⭑⭑⭑⭑⭑</h4>
+                <p class="card-text">Simple, adjustable pomodoro timer with a no-frills complication for Apple Watches. Exactly what I needed. This is app is awesome for when I’m studying (especially in the library), it’s silent and it keeps me focused on my reading and writing.</p>
+                <footer>–AdeTheCrafter</footer>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row spacing-top-sm">
+            <div class="card center w-75">
+              <div class="card-body text-left">
+                <h5 class="card-title">Watch app is exactly what I wanted…</h5>
+                <h4 class="card-subtitle mb-2 font-gold">⭑⭑⭑⭑⭑</h4>
+                <p class="card-text">Silo works well as a Watch-implementation for that, and even supports the 52+17 period that Nicholas Bloom, James Liang, John Roberts, and Zhichun Jenny Ying found most effective in their 2013 experiments. Pause, resume, skip are all on the wrist. Less risk of distraction from Watch than from iOS, too.</p>
+                <footer>–Between Two Parks</footer>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row spacing-top-sm">
+            <div class="card center w-75">
+              <div class="card-body text-left">
+                <h5 class="card-title">Does everything I need it to</h5>
+                <h4 class="card-subtitle mb-2 font-gold">⭑⭑⭑⭑⭑</h4>
+                <p class="card-text">This app does everything I need it to. I can customize focus and break times, and how many I want to do. I can run this process from my phone or watch, and I can see it and feel it. I'm a big fan.</p>
+                <footer>–Wesmk2011</footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-container spacing-top-lg" ontouchstart="this.classList.toggle('hover');">
+      <div class="flipper">
+        <div class="front">
+          <img src="https://silofocus1.s3.amazonaws.com/badge_sync.png" alt="silo" class="flip-badge"/>
+        </div>
+        <div class="back">
+          <img src="https://silofocus1.s3.amazonaws.com/badge_check.png" alt="silo" class="flip-badge"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="row center spacing-top-lg" style="margin-bottom:20px;">
+      <footer>|silo| focus &copy 2021 dark matter developers • all rights reserved</footer>
     </div>
   </div>
-</div>
-
-<div class="div-greyback">
-  <div class="div-contact visible-sm-block visible-md-block visible-lg-block">
-    <div><a href="http://silofocus.com/support">support • contact@silofocus.com</a></div>
-    <div><a href="https://blog.silofocus.com" target="_blank">blog@silofocus.com</a></div>
-    <div><a href="https://twitter.com/silofocus" target="_blank">@silofocus<img src="https://s3-us-west-2.amazonaws.com/silofocus/icon-tweet.png" alt="Apple Watch" class="img-tweet"></a></div>
-  </div>
-  <div class="div-contact-sm visible-xs-block">
-    <div><a href="http://silofocus.com/support">support • contact@silofocus.com</a></div>
-    <div><a href="https://blog.silofocus.com" target="_blank">blog@silofocus.com</a></div>
-    <div><a href="https://twitter.com/silofocus" target="_blank">@silofocus<img src="https://s3-us-west-2.amazonaws.com/silofocus/icon-tweet.png" alt="Apple Watch" class="img-tweet-sm"></a></div>
-  </div>
-</div>
-
-<div class="div-greyback">
-  <div class="div-footer visible-sm-block visible-md-block visible-lg-block">
-    <footer>SILO |focus| &copy 2017 dark matter developers</footer>
-  </div>
-  <div class="div-footer-sm visible-xs-block">
-    <footer>SILO |focus| &copy 2017 dark matter developers</footer>
-  </div>
-</div>
 </body>
-
-<script type="text/javascript"> /* Fading divs */
-  $(document).ready(function() {
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-      /* Check the location of each desired element */
-      $('.hideme').each( function(i){
-        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-        /* If the object is completely visible in the window, fade it in */
-        if( bottom_of_window > (bottom_of_object - 625) ){
-          $(this).animate({'opacity':'1'},2000);
-        }
-      });
-    });
-  });
-</script>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
