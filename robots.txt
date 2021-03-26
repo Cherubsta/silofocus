@@ -1,0 +1,7 @@
+# robots.txt for https://silofocus.com/
+
+User-agent: *
+
+Disallow:
+
+Sitemap: https://silofocus.com/sitemap.xml

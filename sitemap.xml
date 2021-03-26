@@ -7,8 +7,23 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://silofocus.com/</loc>
-  <lastmod>2016-02-26T05:37:25+00:00</lastmod>
-  <changefreq>yearly</changefreq>
+  <loc>https://silofocus.com/</loc>
+  <lastmod>2021-03-26T21:00:59+00:00</lastmod>
 </url>
+
+<url>
+  <loc>https://silofocus.com/support/</loc>
+  <lastmod>2021-03-26T21:00:59+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://silofocus.com/privacy/</loc>
+  <lastmod>2021-03-26T21:00:59+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://silofocus.com/terms/</loc>
+  <lastmod>2021-03-26T21:00:59+00:00</lastmod>
+</url>
+
 </urlset>
