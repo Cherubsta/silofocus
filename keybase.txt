@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/starlite
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://silofocus.com
+  * I am starlite (https://keybase.io/starlite) on keybase.
+  * I have a public key ASCKQeJMgbvm2bJ1b9Pu-Q37y22CiHDfjHPpDnokBjGd3Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c18a7e31e7fc745c139840403140d4ed0373690b2de9ae6729658ec4f72e39420a",
+      "host": "keybase.io",
+      "kid": "01208a41e24c81bbe6d9b2756fd3eef90dfbcb6d828870df8c73e90e7a2406319ddd0a",
+      "uid": "394a5cef5a6114815ff5035caae0cf19",
+      "username": "starlite"
+    },
+    "merkle_root": {
+      "ctime": 1617650727,
+      "hash": "7bca06f1b6838d4f23895a24e1ec3891fef3b7d6d4cb81ea36afbd1afd57fd4b1a7112f862de29ee53285c47f02edfc500069b63d1d69152cef644775f69536c",
+      "hash_meta": "95cae71043037ef7046b95acd713c5c1d58ae12cb260ae0d3d974f58ea9a3208",
+      "seqno": 19552851
+    },
+    "service": {
+      "entropy": "lxiEnv/gHuWDI2ubnxzOgENF",
+      "hostname": "silofocus.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1617650778,
+  "expire_in": 504576000,
+  "prev": "c8a06db19663a1c02754b8eb17048295cf71b7c4bbf740685765a1d36967f816",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgikHiTIG75tmydW/T7vkN+8ttgohw34xz6Q56JAYxnd0Kp3BheWxvYWTESpcCDsQgyKBtsZZjocAnVLjrFwSClc9xt8S790BoV2Wh02ln+BbEIGZP/494xVeY3Or1eMMC1XgDYicQJUQCPq3e2limPrW/AgHCo3NpZ8RAEetg8dfz+YyVkRvt8gwih0FUPxUB8hPyxX3vq172OzX9whDzpcOQhVb9WHHvPBZlMO3cFdcumOicSLfW30LFBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIB3kvdd3N+T4Ill0EN/I8sT3Iq8XTdJFCT0Yqai1lQ6oo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/starlite
+
+==================================================================
